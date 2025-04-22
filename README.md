@@ -21,7 +21,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 ### Diagrams
 
-- **[ERD (Entity-Relationship Diagram)](   https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/ERD_Diagram.png)**  
+- **[ERD (Entity-Relationship Diagram)](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/ERD_Diagram.png)**  
   _Link to ERD diagram file or image_
 
 - **[DSD (Detailed Schema Diagram)](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/DSD_Diagram.png)**  
@@ -34,13 +34,13 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 - **[CREATE](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/SQL_Programming/CreateTable)**  
   _SQL script for creating the database schema_
 
-- **[INSERT](#)**  
+- **[INSERT](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/SQL_Programming/InsertTable)**  
   _SQL script with manual data insertions_
 
-- **[SELECT](#)**  
+- **[SELECT](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/SQL_Programming/SelectTable)**  
   _Examples of SELECT queries (coming soon)_
 
-- **[DROP](#)**  
+- **[DROP](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/SQL_Programming/DropTable)**  
   _SQL script for dropping tables_
 
 ---
