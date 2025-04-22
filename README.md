@@ -47,13 +47,13 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 ### Data Insertion
 
-- **[Python Script](#)**  
+- **[Python Script](#Stage1/seed_data/Python._Programming)**  
   _Automated data generation using Python_
 
-- **[SQL INSERT](#)**  
+- **[SQL INSERT](#Stage1/seed_data/SQL_Script)**  
   _Manual SQL-based insertion_
 
-- **[CSV Files](#)**  
+- **[CSV Files](#Stage1/seed_data/Mock_Data)**  
   _Data import from structured CSVs_
 
 ---
