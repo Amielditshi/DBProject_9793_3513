@@ -1,0 +1,29 @@
+-- Agent
+INSERT INTO Agent VALUES (1, 'Dana Cohen', 'TopTalent', '0501234567', 'dana@toptalent.com', '2020-01-01');
+INSERT INTO Agent VALUES (2, 'Ronen Levi', 'StarsAgency', '0522345678', 'ronen@stars.com', '2021-03-15');
+INSERT INTO Agent VALUES (3, 'Noa Mizrahi', 'EliteReps', '0533456789', 'noa@elite.com', '2019-11-20');
+
+-- Content_Creator
+INSERT INTO Content_Creator VALUES (1, 'Itay Shalev', '1990-05-10', 'Israel', TRUE, '2022-06-01', 1);
+INSERT INTO Content_Creator VALUES (2, 'Tamar Azulay', '1985-08-22', 'Israel', TRUE, '2021-01-10', 2);
+INSERT INTO Content_Creator VALUES (3, 'Yossi Ben-David', '1992-12-05', 'USA', FALSE, '2020-09-18', 3);
+
+-- Production
+INSERT INTO Production VALUES (1, 'Summer Vibes', 'Series', '2023-07-15', 'Comedy', 8.7);
+INSERT INTO Production VALUES (2, 'Behind the Scenes', 'Documentary', '2022-03-22', 'Drama', 7.5);
+INSERT INTO Production VALUES (3, 'Echoes', 'Movie', '2024-11-05', 'Thriller', 9.1);
+
+-- Contract
+INSERT INTO Contract VALUES (1, 1, 1, '2022-06-01', '2023-06-01', 15000.00, 'Actor');
+INSERT INTO Contract VALUES (2, 2, 2, '2021-01-10', '2022-01-10', 20000.00, 'Director');
+INSERT INTO Contract VALUES (3, 3, 3, '2020-09-18', '2021-09-18', 18000.00, 'Writer');
+
+-- Award
+INSERT INTO Award VALUES (1, 'Best Actor', 'Performance', '1990-05-10');
+INSERT INTO Award VALUES (2, 'Best Director', 'Directing', '1990-05-10');
+INSERT INTO Award VALUES (3, 'Viewer''s Choice', 'Audience', '1990-05-10');
+
+-- Feedback
+INSERT INTO Feedback VALUES (1, 1, '2023-08-01', 9.0, 'Great show!');
+INSERT INTO Feedback VALUES (2, 2, '2022-04-01', 8.5, 'Very insightful.');
+INSERT INTO Feedback VALUES (3, 3, '2024-12-10', 9.5, 'Outstanding production!');
