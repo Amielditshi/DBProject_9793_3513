@@ -1,2 +1,69 @@
-# DBProject_9793_3513
- This academic project simulates the DB architecture of a Netflix-style platform. The system is divided into 6 core modules: Users, Media , Content Creators, Infrastructure, Tech Support, and Finance. Each team focuses on one module — my teammate Dan and I focused on Content Creators.
+# Netflix Content Creators Database Project
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Stage 1 – Schema Design, Creation & Data Insertion](#stage-1--schema-design-creation--data-insertion)  
+  - [Diagrams](#diagrams)
+  - [Database Creation & Basic SQL Commands](#database-creation--basic-sql-commands)
+  - [Data Insertion](#data-insertion)
+  - [Backup](#backup)
+- [Stage 2 – To Be Updated](#stage-2--to-be-updated)
+
+---
+
+## Introduction
+This project aims to design and implement a relational database system for managing **Netflix content creators** and their related data. The system includes entities such as content creators, agents, contracts, productions, awards, and user feedback.  
+The goal is to apply database design principles (up to 3NF), execute SQL operations, and demonstrate multi-method data insertion.
+
+---
+
+## Stage 1 – Schema Design, Creation & Data Insertion
+
+### Diagrams
+
+- **[ERD (Entity-Relationship Diagram)](#)**  
+  _Link to ERD diagram file or image_
+
+- **[DSD (Detailed Schema Diagram)](#)**  
+  _Link to DSD document or image_
+
+---
+
+### Database Creation & Basic SQL Commands
+
+- **[CREATE](#)**  
+  _SQL script for creating the database schema_
+
+- **[INSERT](#)**  
+  _SQL script with manual data insertions_
+
+- **[SELECT](#)**  
+  _Examples of SELECT queries (coming soon)_
+
+- **[DROP](#)**  
+  _SQL script for dropping tables_
+
+---
+
+### Data Insertion
+
+- **[Python Script](#)**  
+  _Automated data generation using Python_
+
+- **[SQL INSERT](#)**  
+  _Manual SQL-based insertion_
+
+- **[CSV Files](#)**  
+  _Data import from structured CSVs_
+
+---
+
+### Backup
+
+- **[Database Backup](#)**  
+  _Link to backup file if available_
+
+---
+
+## Stage 2 – To Be Updated
+Further updates and advanced features will be added in the next stage of the project.
