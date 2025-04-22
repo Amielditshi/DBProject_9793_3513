@@ -24,7 +24,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 - **[ERD (Entity-Relationship Diagram)](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/DSD_Diagram.png)**  
   _Link to ERD diagram file or image_
 
-- **![DSD (Detailed Schema Diagram)](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/DSD_Diagram.png)**  
+- **![DSD (Detailed Schema Diagram)]([https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/DSD_Diagram.png](https://github.com/Amielditshi/DBProject_9793_3513/blob/main/Stage1/Diagrams/ERD_Diagram.png))**  
   _Link to DSD document or image_
 
 ---
