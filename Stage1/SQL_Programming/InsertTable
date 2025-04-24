@@ -1,7 +1,7 @@
 -- Agent
-INSERT INTO Agent VALUES (1, 'Dana Cohen', 'TopTalent', '0501234567', 'dana@toptalent.com', '2020-01-01');
-INSERT INTO Agent VALUES (2, 'Ronen Levi', 'StarsAgency', '0522345678', 'ronen@stars.com', '2021-03-15');
-INSERT INTO Agent VALUES (3, 'Noa Mizrahi', 'EliteReps', '0533456789', 'noa@elite.com', '2019-11-20');
+INSERT INTO Agent VALUES (1, 'Dana Cohen', 'TopTalent', '0501234567', 'dana@toptalent.com');
+INSERT INTO Agent VALUES (2, 'Ronen Levi', 'StarsAgency', '0522345678', 'ronen@stars.com');
+INSERT INTO Agent VALUES (3, 'Noa Mizrahi', 'EliteReps', '0533456789', 'noa@elite.com');
 
 -- Content_Creator
 INSERT INTO Content_Creator VALUES (1, 'Itay Shalev', '1990-05-10', 'Israel', TRUE, '2022-06-01', 1);
