@@ -20,14 +20,13 @@ num_records = 400
 # טבלת סוכנים
 for i in range(1, num_records + 1):
     cursor.execute(
-        "INSERT INTO Agent VALUES (%s, %s, %s, %s, %s, %s)",
+        "INSERT INTO Agent VALUES (%s, %s, %s, %s, %s)",
         (
             i,
             fake.name()[:100],
             fake.company()[:100],
             fake.phone_number()[:20],
-            fake.email()[:100],
-            fake.date()
+            fake.email()[:100]
         )
     )
 
