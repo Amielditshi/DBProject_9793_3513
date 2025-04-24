@@ -1,0 +1,801 @@
+ProductionID,FeedbackID,AwardID,Title,ProductionType,ReleaseDate,Genre,ProductionRating,ContractID
+1,745,799,Eye In The Sky (Gun chung),35,1991-11-04,Crime|Thriller,3.3,768
+2,630,554,Valley Uprising,9,2012-12-24,Documentary,7.2,216
+3,699,252,Seas Beneath,308,2023-10-07,Action|Drama|War,8.7,727
+4,684,252,Luck by Chance,640,2009-05-28,Drama,5.9,800
+5,403,322,"Scarlet Dove, The (Tulipunainen kyyhkynen)",371,2018-03-25,Drama|Mystery|Thriller,6.9,591
+6,567,80,Three Way,556,1996-11-13,Crime|Drama|Thriller,8.6,322
+7,555,731,Mad Max Beyond Thunderdome,298,2003-02-28,Action|Adventure|Sci-Fi,3.6,358
+8,95,755,Requiem for a Heavyweight,653,2010-03-11,Drama,8.4,422
+9,622,634,Showgirls,14,1992-10-17,Drama,8.7,518
+10,449,155,Major League II,551,2019-07-10,Comedy,2.3,13
+11,672,476,Executive Suite,523,1998-08-23,Drama,9.6,103
+12,170,369,Wind Chill,555,2010-08-31,Drama|Horror|Thriller,9.3,779
+13,390,248,Texasville,297,2019-07-13,Drama,7.8,73
+14,279,783,Dragon Ball Z: Bojack Unbound (Doragon bôru Z 9: Ginga girigiri!! Butchigiri no sugoi yatsu),738,2015-03-14,Action|Adventure|Animation|Fantasy,1.5,215
+15,225,171,Godzilla Against MechaGodzilla (Gojira tai Mekagojira),728,1993-10-20,Action|Sci-Fi|Thriller,3.8,305
+16,725,370,Penitentiary II,660,1991-05-23,Drama,3.3,330
+17,649,343,Rosie,397,1994-10-30,Drama,5.7,153
+18,469,63,Criminal,60,1994-10-25,Comedy|Drama,9.0,108
+19,447,427,Eaten Alive,752,2007-04-12,Horror,3.7,617
+20,291,681,Play,149,1998-06-07,Crime|Drama,8.5,635
+21,694,310,Tropic Thunder,216,1998-06-19,Action|Adventure|Comedy|War,2.2,456
+22,464,262,Blood and Roses (Et mourir de plaisir) (To Die with Pleasure),510,1998-10-07,Horror,4.4,262
+23,109,268,"Winning Season, The",536,2024-06-15,Comedy,6.0,118
+24,277,650,Orgazmo,645,1991-12-01,Comedy,3.9,362
+25,620,672,Take the Trash,115,2013-06-05,Comedy,5.9,149
+26,543,503,James and the Giant Peach,794,2017-01-09,Adventure|Animation|Children|Fantasy|Musical,4.0,84
+27,758,380,Mrs. Palfrey at the Claremont,431,2016-06-15,Comedy|Drama,5.4,150
+28,421,400,Passenger 57,383,2011-12-26,Action|Thriller,4.4,615
+29,661,320,"Mighty, The",525,2016-06-27,Drama,7.3,348
+30,70,453,The Girl from Nagasaki,372,2003-09-28,Drama|Romance,1.8,320
+31,403,230,Flesh & Blood,510,1998-04-22,Action|Adventure|Drama|War,9.7,776
+32,663,792,Cold Mountain,740,1997-10-01,Drama|Romance|War,3.0,639
+33,413,560,Road House,628,1991-01-13,Drama|Film-Noir,5.2,762
+34,41,82,"Descent: Part 2, The",299,1995-01-16,Adventure|Horror|Thriller,3.0,642
+35,294,341,Fine-Tune,75,2003-09-02,Comedy|Drama,9.0,251
+36,643,260,"Count Dracula (Nachts, wenn Dracula erwacht)",555,2011-02-04,Horror|Mystery,6.9,173
+37,202,18,(A)sexual,273,2020-04-14,Comedy|Documentary|Drama,5.5,4
+38,537,474,Moonraker,359,1993-04-14,Action|Adventure|Sci-Fi|Thriller,9.4,348
+39,273,137,"Life Is Rosy (a.k.a. Life Is Beautiful) (Vie est belle, La)",170,2002-07-11,Comedy|Drama,5.3,547
+40,264,232,Kisses,224,1999-01-25,Drama,8.0,697
+41,347,438,Home Movie,205,1997-10-30,Documentary,8.9,657
+42,613,695,First Person Plural,199,2007-02-15,Documentary,5.6,712
+43,583,108,Gold,364,1997-05-14,Western,2.4,160
+44,579,508,Warning from Space (Uchûjin Tôkyô ni arawaru),232,2012-11-22,Sci-Fi,3.5,426
+45,781,456,"Way, The",445,2023-06-18,Drama,5.8,680
+46,123,737,Dance with a Stranger,390,1991-05-23,Crime|Drama|Thriller,8.5,318
+47,717,8,Two Ninas,129,2007-02-07,Comedy|Romance,6.2,232
+48,266,481,Please Don't Eat the Daisies,198,2003-10-15,Children|Comedy|Musical,5.7,571
+49,544,257,Strawberry and Chocolate (Fresa y chocolate),239,2008-11-23,Drama,6.3,79
+50,605,303,"Football Factory, The",193,2019-04-17,Action|Drama,3.7,677
+51,692,458,"Legend of 1900, The (a.k.a. The Legend of the Pianist on the Ocean) (Leggenda del pianista sull'oceano)",484,1995-02-03,Drama,2.7,513
+52,278,339,With Fire and Sword (Ogniem i mieczem),611,2003-02-27,Adventure|Crime|Drama|Romance|War,3.3,73
+53,779,731,"Girasoli, I (Sunflower)",482,2018-09-10,Drama,4.7,103
+54,252,244,"Color of Pomegranates, The (Sayat Nova)",17,2015-12-12,Drama,1.5,656
+55,634,94,Shadowzone,764,2010-10-28,Horror|Sci-Fi,1.2,116
+56,530,406,Forbidden City Cop (Dai lap mat tam 008),32,2003-07-16,Action|Comedy,2.5,491
+57,474,708,King Leopold's Ghost,165,2017-09-23,Documentary,8.3,518
+58,358,382,Western Union,328,1995-04-10,Western,4.5,312
+59,173,464,Stuck,537,1994-05-12,Horror|Thriller,6.7,264
+60,798,631,Frankenstein Conquers the World,11,2005-08-13,Action|Drama|Sci-Fi,2.6,107
+61,742,470,"Cartoonist: Jeff Smith, BONE and the Changing Face of Comics, The",323,1999-10-25,Documentary,3.7,664
+62,678,525,"Prophecy, The",321,2000-02-23,Fantasy|Horror|Mystery,6.1,716
+63,753,310,The Hound of the Baskervilles,77,2011-01-14,Adventure|Drama|Horror|Mystery,5.6,110
+64,315,118,Paper Planes,216,1998-09-14,Children,9.5,438
+65,90,329,One Good Cop,767,2022-04-28,Action|Crime|Drama,6.2,333
+66,335,19,Identity Thief,122,2018-11-01,Comedy|Crime,3.4,468
+67,473,78,King of Devil's Island (Kongen av Bastøy) ,505,2022-06-16,Action|Drama,1.9,102
+68,87,310,"Gentle Woman, A (Une femme douce)",531,1997-10-04,Drama,1.4,69
+69,646,328,Arcade,131,2023-02-03,Horror|Sci-Fi,9.4,232
+70,58,365,Eaten Alive (Mangiati Vivi),306,1990-05-30,Adventure|Horror,8.0,383
+71,376,393,Under the Bridges (Unter den Brücken),294,2019-11-07,Comedy|Drama|Romance,6.7,385
+72,250,620,"Wings of Desire (Himmel über Berlin, Der)",735,2019-05-27,Drama|Fantasy|Romance,1.4,329
+73,607,381,Poseidon,116,2007-06-09,Action|Adventure|Thriller|IMAX,2.2,305
+74,520,257,Dersu Uzala,336,2009-06-14,Adventure|Drama,4.0,50
+75,579,240,House of Bamboo,286,2011-09-06,Crime|Film-Noir,8.8,509
+76,92,686,Noah's Ark,540,2017-06-26,Adventure|Drama|Romance,6.4,278
+77,461,254,Baby Take a Bow,210,2019-05-22,Children|Comedy|Drama,8.8,179
+78,560,508,The Lunchbox,6,2005-07-12,Drama|Romance,5.4,57
+79,22,293,"Therese Raquin (a.k.a. Adultress, The)",315,1995-11-25,Crime|Drama|Romance,1.3,171
+80,297,511,Nixon by Nixon: In His Own Words,125,1994-12-17,Documentary,4.0,592
+81,128,189,Cuckoo in a Dark Forest (Kukacka v temném lese) ,335,1993-07-04,Drama|War,8.6,718
+82,520,344,"Last Lions, The",541,2011-08-05,Documentary,9.8,723
+83,424,370,"Battle of Shaker Heights, The",34,2023-04-07,Comedy|Drama|Romance,8.3,375
+84,21,129,Heart Like a Wheel,45,2015-03-02,Drama,7.5,589
+85,206,173,"Passion of Ayn Rand, The",724,2012-01-21,Documentary|Drama|Romance,5.1,288
+86,199,381,Oyster Farmer,54,2005-01-16,Drama,5.6,639
+87,526,583,Heat,759,2002-02-22,Comedy|Drama|Romance,3.0,372
+88,249,118,Glen or Glenda,598,2013-11-20,Drama,6.6,92
+89,631,167,Treasure Island,216,2000-12-22,Adventure,5.4,681
+90,791,217,My Flesh My Blood (Moja krew),154,2006-02-11,Drama,5.8,662
+91,635,599,Tell Them Willie Boy is Here,277,2019-01-28,Drama|Western,9.3,212
+92,530,521,Mercenary for Justice,468,1998-12-29,Action,7.1,474
+93,640,544,God Grew Tired of Us,177,2023-05-26,Documentary|Drama,5.8,558
+94,689,469,Friends with Kids,428,2019-07-08,Comedy,6.7,703
+95,343,227,Ama lur (Tierra Madre),326,2012-12-29,Documentary,7.0,312
+96,395,237,My Favorite Season,625,2004-11-01,Drama,8.0,274
+97,64,255,French Fried Vacation 2 (Les bronzés font du ski),153,2021-12-20,Comedy,6.8,15
+98,351,94,City by the Sea,392,2000-01-13,Crime|Drama,6.9,280
+99,602,56,Lawrence of Arabia,456,2021-06-04,Adventure|Drama|War,6.1,113
+100,497,783,Charlie Chan on Broadway,101,1996-02-09,Comedy|Crime|Mystery|Thriller,1.6,273
+101,99,612,Wings of Honneamise (Ôritsu uchûgun Oneamisu no tsubasa),503,2010-01-19,Animation|Drama|Sci-Fi|War,5.3,67
+102,473,321,Tony Arzenta (No Way Out) (Big Guns),296,2024-02-19,Action|Crime|Drama|Thriller,7.5,458
+103,579,212,Sekirei,324,2020-07-24,(no genres listed),5.1,41
+104,109,435,"Task, The",688,2020-09-08,Horror,1.9,493
+105,168,540,"Informant!, The",175,2008-02-25,Comedy|Crime|Drama|Thriller,4.1,388
+106,78,720,Broken Lullaby (a.k.a. The Man I Killed),732,2017-07-24,Drama,4.8,205
+107,299,293,Holy Man,645,2003-09-17,Comedy,4.7,411
+108,196,358,Meshes of the Afternoon,36,1999-03-27,Fantasy,1.4,136
+109,388,568,"Mummy's Hand, The",181,1996-04-22,Horror,2.5,676
+110,154,463,A-Haunting We Will Go,413,2021-10-12,Comedy,5.4,710
+111,370,646,Kiss Me Goodbye,1,2000-02-14,Comedy,8.2,599
+112,535,70,Still of the Night,462,2025-01-08,Mystery|Thriller,3.2,244
+113,390,349,Crisis: Behind a Presidential Commitment,675,2010-11-19,Documentary,3.2,258
+114,24,473,Pride of the Marines,287,1999-11-21,Drama|War,1.1,353
+115,768,375,Viva Riva!,737,1991-09-18,Drama,1.1,361
+116,6,234,"City Dark, The",42,1999-04-09,Documentary,8.0,177
+117,342,747,Double Suicide (Shinjû: Ten no amijima),354,1993-01-13,Drama|Romance,8.0,117
+118,301,684,Tremors 4: The Legend Begins,647,1991-09-29,Action|Comedy|Horror|Sci-Fi|Thriller|Western,1.8,307
+119,105,16,Tales from the Gimli Hospital,793,1994-07-04,Fantasy|Horror,2.7,720
+120,228,567,"Iceman, The",723,2002-12-12,Crime|Drama|Thriller,8.7,750
+121,198,107,Butley,458,2009-09-05,Drama,7.3,339
+122,555,712,The Mummy's Shroud,670,2020-06-09,Horror,7.8,105
+123,85,370,"Wankers, The (Les branleuses)",258,2007-11-20,Documentary,6.6,541
+124,615,600,For Greater Glory: The True Story of Cristiada,241,2000-11-21,Drama|War,9.8,110
+125,633,628,Eye of the Needle,581,2023-07-12,Thriller,5.8,522
+126,207,376,Operación Cannabis,554,2019-03-24,Action|Adventure|Comedy|Crime,7.6,359
+127,604,28,Night on the Galactic Railroad (Ginga-tetsudo no yoru),730,2009-04-23,Animation|Drama,2.6,705
+128,314,311,Heartbreak Hospital,205,1998-08-18,Comedy|Thriller,8.0,121
+129,794,428,Ayn Rand: A Sense of Life,453,2022-02-09,Documentary,7.9,289
+130,588,581,Bodyguards and Assassins,41,2012-11-29,Action|Drama,6.4,548
+131,776,773,Cargo,386,2000-09-04,Drama|Thriller,6.8,204
+132,402,127,The Wind in the Willows,542,2009-01-20,Adventure|Animation|Children|Comedy,6.3,90
+133,231,83,Andrew Dice Clay: Indestructible,117,2008-11-10,Comedy,6.3,277
+134,149,537,Central Station (Central do Brasil),499,2000-11-26,Drama,7.7,705
+135,430,211,Juno,346,2005-02-27,Comedy|Drama|Romance,8.5,794
+136,153,551,Sin City: A Dame to Kill For,144,2014-07-31,Action|Crime|Thriller,5.4,357
+137,711,588,"Royal Scandal, The",253,1999-10-03,Crime|Mystery,4.9,44
+138,543,799,The Biggest Bundle of Them All,445,2003-01-16,Comedy|Crime,6.8,59
+139,420,348,Different from the Others (Anders als die Andern),318,2016-04-18,Drama,7.3,139
+140,534,720,Jesse Stone: Stone Cold,118,2012-05-19,Crime|Drama|Mystery,8.4,230
+141,394,106,Three Worlds (Trois mondes),674,1993-03-16,Drama,2.0,172
+142,786,452,Southern Comfort,472,1991-03-19,Documentary,2.7,48
+143,509,509,Face of Terror,200,2020-05-24,Action|Drama|Thriller,2.8,210
+144,275,490,Smashing Time,121,2019-10-07,Comedy,4.2,589
+145,16,703,Repeaters ,431,2022-05-27,Action|Drama,1.2,324
+146,255,17,Madam Satan,307,2013-09-16,Comedy|Musical|Romance,5.1,11
+147,558,593,"Elvira, Mistress of the Dark",293,2015-01-02,Comedy|Horror,5.5,396
+148,471,657,After Hours,677,2001-05-25,Comedy|Thriller,5.9,222
+149,112,327,Fighter in the Wind,696,2003-05-31,Action|Drama,4.7,144
+150,150,336,Mary Reilly,63,2025-04-17,Drama|Horror|Thriller,9.2,115
+151,350,386,"Loves of Carmen, The",526,2002-12-24,Drama,2.6,344
+152,780,315,Repentance,687,2018-08-28,Drama|Horror|Thriller,4.6,204
+153,494,286,Roots,111,2014-04-04,Drama|War,5.8,291
+154,681,228,"Train Robbers, The",293,2007-06-06,Western,2.4,673
+155,65,267,The Water Diviner,419,2020-02-24,Action|Drama|War,9.3,783
+156,1,239,"Red Desert (Deserto rosso, Il)",685,2002-07-18,Drama,6.0,283
+157,327,421,180° South (180 Degrees South) (180° South: Conquerors of the Useless),747,1991-12-14,Documentary|Drama,5.3,108
+158,37,430,"Now, Voyager",141,2007-03-05,Drama|Romance,1.6,240
+159,190,283,Being Elmo: A Puppeteer's Journey,534,2004-08-10,Documentary,5.3,257
+160,509,413,Superman/Batman: Apocalypse,182,2018-12-13,Animation,4.8,550
+161,753,286,Fightville,470,2015-04-21,Documentary,6.3,149
+162,604,304,"Other Man, The",328,2020-07-12,Drama,4.0,779
+163,102,123,Daar,357,2002-10-24,Drama|Horror|Mystery|Romance|Thriller,8.0,521
+164,654,335,Island at War,117,2010-08-19,Drama|War,6.0,619
+165,105,607,As I Was Moving Ahead Occasionally I Saw Brief Glimpses of Beauty,619,2007-12-12,Documentary,5.6,66
+166,16,733,Brothers in Trouble,492,2007-09-23,Drama,3.6,235
+167,201,107,Texas,32,1997-07-02,Drama|Romance|Western,8.7,784
+168,754,361,"Object of My Affection, The",8,2020-09-15,Comedy|Romance,2.5,322
+169,268,759,¡Three Amigos!,723,2008-12-15,Comedy|Western,9.4,55
+170,424,52,Our Song,564,2002-06-24,Drama,8.3,378
+171,290,30,Detroit Metal City (Detoroito Metaru Shiti),179,2002-03-10,Comedy|Drama|Musical,7.5,304
+172,741,369,Anna Lucasta,549,2021-12-14,Drama,1.1,233
+173,677,104,Rocketship X-M,145,2010-04-17,Sci-Fi,9.5,345
+174,20,555,Defiance,780,1997-03-21,Action|Crime|Drama,4.7,186
+175,303,117,"Hustler, The",720,2004-11-24,Drama,7.9,604
+176,515,751,"Mountain, The",582,2018-07-01,Adventure|Drama,7.7,181
+177,739,361,Argo,482,2010-01-22,Drama|Thriller,8.5,673
+178,779,366,Vares: The Kiss of Evil (Vares - Pahan suudelma),397,1995-08-24,Action|Crime|Film-Noir,6.6,360
+179,225,281,Kill Bill: Vol. 1,187,2018-07-19,Action|Crime|Thriller,6.7,137
+180,12,503,Ali,729,2018-09-02,Drama,6.1,527
+181,641,644,Revenge of the Green Dragons,651,1992-04-16,Action|Crime|Drama,3.8,99
+182,62,371,Go Tell the Spartans,616,2003-11-08,Drama|War,3.0,601
+183,389,539,Sleep Furiously,38,1998-01-12,Documentary,3.2,2
+184,20,707,Police Academy 5: Assignment: Miami Beach,255,2021-08-31,Comedy|Crime,9.7,66
+185,404,337,K-PAX,426,2008-10-05,Drama|Fantasy|Mystery|Sci-Fi,5.5,108
+186,624,638,The Last Time I Saw Macao,336,2013-04-02,Documentary|Thriller,8.3,329
+187,401,237,"Bat Whispers, The",567,2004-10-03,Crime|Drama|Mystery,4.8,683
+188,595,296,Help! I'm A Fish,465,2010-03-14,Adventure|Animation|Comedy,1.7,267
+189,770,135,Naughty Girl,72,2019-12-16,Comedy|Musical|Romance,4.0,248
+190,154,210,"Sentimental Swordsman, The (To ching chien ko wu ching chien)",9,1995-11-09,Action|Adventure,9.7,467
+191,505,605,Never Cry Wolf,372,2016-02-15,Adventure|Drama,4.9,24
+192,438,621,Ryan's Daughter,50,2021-10-18,Drama|Romance,3.3,41
+193,359,588,Two Evil Eyes,19,1998-12-15,Horror,5.2,239
+194,489,182,Gods and Monsters,120,1991-05-07,Drama,2.5,296
+195,381,766,The Young Savages,587,2014-08-03,Crime|Drama,6.1,326
+196,624,492,Alien³ (a.k.a. Alien 3),529,1998-07-02,Action|Horror|Sci-Fi|Thriller,2.3,326
+197,241,105,"Rains Came, The",365,1996-03-02,Adventure|Drama|Romance,5.5,515
+198,261,47,Absolute Aggression,634,1996-01-31,Action|Sci-Fi|Thriller,4.7,129
+199,169,601,She Wouldn't Say Yes,594,2007-02-10,Comedy|Romance,8.1,170
+200,446,643,"Formula, The",79,1997-11-15,Thriller,5.1,335
+201,676,129,Trilogy of Terror,769,2019-01-08,Horror|Thriller,9.9,292
+202,586,226,Spend It All,232,1996-07-02,Documentary,2.8,55
+203,428,302,Year of the Comet,1,2017-02-20,Action|Adventure|Comedy|Romance,4.1,709
+204,684,632,Alaska: Spirit of the Wild,658,2012-08-03,Documentary|IMAX,7.8,213
+205,189,782,Deadline - U.S.A.,591,1997-12-22,Crime|Drama,3.1,658
+206,227,672,"Cat and the Canary, The",334,2024-05-03,Comedy|Horror|Mystery,5.4,795
+207,615,644,Beware of a Holy Whore (Warnung vor einer heiligen Nutte),413,1995-07-31,Comedy|Drama,8.4,800
+208,200,79,"Unsuspected, The",219,2025-02-03,Drama|Film-Noir|Thriller,3.1,137
+209,541,796,Beauty Shop,750,2011-10-23,Comedy,8.6,418
+210,703,438,Conviction,14,2024-08-12,Drama,3.6,655
+211,608,581,Crime at the Chinese Restaurant,301,2024-07-19,Comedy|Mystery|Thriller,2.1,159
+212,585,704,"Against One Another, Virtually Friends",481,1992-06-04,Comedy,6.9,770
+213,106,408,"Falcon and the Snowman, The",337,2014-06-20,Drama|Thriller,2.6,550
+214,486,45,Regular Guys (Echte Kerle),624,2005-10-07,Comedy|Romance,5.5,791
+215,196,448,Before Flying Back to Earth (Pries parskrendant i zeme),149,2020-08-03,Documentary,8.6,663
+216,694,627,Like Mike,591,2004-01-07,Children|Comedy|Fantasy,6.7,242
+217,505,494,Burnt by the Sun 2 (Utomlyonnye solntsem 2),74,2017-06-01,Drama,3.8,696
+218,238,60,"Jerky Boys, The",760,2003-08-23,Comedy,7.0,45
+219,207,769,Hounddog,427,1997-07-19,Drama,7.8,258
+220,377,95,Curse of the Puppet Master (Puppet Master 6: The Curse),432,2021-07-05,Horror|Sci-Fi|Thriller,1.5,519
+221,336,774,Zarafa,602,2003-06-08,Animation,5.9,307
+222,416,308,Victory Through Air Power,145,2016-07-01,Animation|Documentary|War,9.2,46
+223,99,310,Don't Go Breaking My Heart (Daan gyun naam yu),173,2009-01-04,Romance,9.5,752
+224,74,729,Bright Eyes,263,2012-03-03,Comedy|Drama,10.0,45
+225,31,541,Greaser's Palace,497,2015-06-02,Comedy|Drama|Western,3.1,492
+226,30,274,DarkBlueAlmostBlack (Azuloscurocasinegro),83,2001-11-08,Drama|Romance,1.2,186
+227,61,52,Saint Joan,554,2004-01-19,Drama,6.3,329
+228,235,503,In the Army Now,498,1996-05-16,Comedy|War,1.1,398
+229,646,399,"Shock to the System, A",426,1995-06-23,Comedy|Crime|Thriller,8.1,581
+230,694,505,Journey from the Fall,638,2006-09-19,Drama,3.4,663
+231,585,403,Reprise,517,2009-01-01,Drama,1.2,504
+232,203,446,"Last of the Mohicans, The",181,2000-10-29,Action|Romance|War|Western,8.0,131
+233,112,535,Leprechaun: Origins,662,2019-05-16,Horror,2.0,212
+234,661,489,Hit Squad,654,2015-04-26,Action|Comedy,4.7,333
+235,119,772,"Pear Tree, The (Derakhte Golabi)",573,2018-08-25,Drama|Romance,4.6,381
+236,554,396,Other People's Money,8,2020-07-14,Comedy|Drama|Romance,4.8,503
+237,767,162,Garden Party,73,2021-10-10,Drama|Romance,2.0,294
+238,507,185,Man Of The Moment,53,2020-04-11,Comedy,9.0,633
+239,763,97,We Have a Pope (Habemus Papam),251,2025-02-14,Drama,6.2,78
+240,127,665,Alcina,301,2013-02-22,Drama|Fantasy|Romance,1.8,666
+241,715,667,Münchhausen,235,2018-10-16,Adventure|Comedy|Fantasy,7.7,335
+242,684,565,Stan Helsing,354,1993-08-19,Comedy|Horror,2.4,443
+243,534,674,I Love Your Work,287,2023-07-03,Drama|Mystery,3.0,691
+244,776,301,El Lobo,664,2003-11-27,Thriller,9.0,488
+245,695,737,Project A ('A' gai waak),37,2001-08-26,Action|Comedy,7.8,206
+246,564,422,Filming 'Othello',116,2005-06-18,Documentary,1.9,542
+247,386,705,Edison Force (a.k.a. Edison),789,2019-06-26,Crime|Drama|Thriller,6.4,483
+248,446,621,Outsider,317,1992-07-12,Drama,8.0,229
+249,677,721,Megacities,192,1997-03-29,Documentary,5.8,135
+250,510,7,Tales of Vesperia: The First Strike (Teiruzu obu vesuperia: The first strike),489,1996-10-10,Animation,6.8,381
+251,99,368,Repo! The Genetic Opera,605,2017-04-09,Fantasy|Horror|Musical,5.0,425
+252,720,153,Maidens in Uniform (Mädchen in Uniform),727,2008-09-25,Drama|Romance,9.5,774
+253,484,84,Bringing Down the House,18,2008-09-08,Comedy,5.5,530
+254,456,624,Yuki & Nina,236,1992-11-14,Drama,6.6,621
+255,792,519,Soul Man,53,2005-06-19,Comedy,8.3,670
+256,338,765,Take the High Ground!,709,2010-12-26,Comedy|Drama|War,7.2,169
+257,190,663,Mondo Cane,16,2002-02-02,Documentary,1.4,466
+258,473,347,Tadpole,771,1991-01-25,Comedy|Drama|Romance,6.9,80
+259,589,566,Confessions of a Teenage Drama Queen,231,2007-04-13,Comedy,5.2,45
+260,79,659,"Paris, France",797,1990-07-05,Comedy,2.5,387
+261,456,184,"Texas Chainsaw Massacre, The",455,2006-11-27,Horror,8.7,396
+262,500,690,Barnens ö,178,1997-07-15,Adventure|Children|Drama,5.1,233
+263,587,441,"Marsh, The",517,1990-04-19,Horror|Thriller,3.6,317
+264,253,109,Six Pack,266,2017-12-06,Comedy|Drama,1.9,399
+265,671,556,Annabel Takes a Tour (Annabel Takes a Trip),96,2018-06-01,Comedy,7.1,242
+266,219,488,John Wick,110,2013-09-15,Action|Thriller,8.1,688
+267,778,621,If a Tree Falls: A Story of the Earth Liberation Front,300,1993-06-18,Documentary,4.0,422
+268,2,648,The Snow Woman,3,2004-04-30,Fantasy|Horror,10.0,403
+269,577,215,Shanghaied,790,2006-02-10,Comedy,7.7,754
+270,609,330,Noriko's Dinner Table (Noriko no shokutaku),204,2019-09-24,Drama|Horror,4.6,466
+271,132,473,Werner - Beinhart!,186,2014-01-24,Action|Animation|Comedy,6.0,315
+272,361,57,Wyrmwood,524,1995-07-26,Action|Horror|Sci-Fi,8.8,458
+273,478,601,First Kid,49,1997-01-18,Children|Comedy,8.3,465
+274,715,193,Virgin Stripped Bare by Her Bachelors (Oh! Soo-jung),299,1990-09-08,Drama,9.6,88
+275,417,158,Infinity,477,2002-03-04,Drama,2.6,635
+276,718,447,Miguel and William (Miguel y William),706,2008-09-07,Comedy|Romance,3.6,575
+277,213,593,"Falcon and the Snowman, The",445,2007-09-17,Drama|Thriller,9.7,757
+278,13,62,Dangerous,62,2000-08-18,Drama,1.5,787
+279,207,394,Great Expectations,386,1993-05-05,Drama,1.4,747
+280,664,335,Crossfire Trail (Louis L'Amour's 'Crossfire Trail'),379,2009-03-16,Action|Western,5.0,387
+281,111,692,Yu-Gi-Oh!,583,2015-03-01,Animation,4.4,565
+282,663,36,Annabelle,336,1994-11-25,Horror,3.7,750
+283,496,783,Blade Runner,727,2023-01-17,Action|Sci-Fi|Thriller,8.9,638
+284,396,78,Hungry Hill,447,2003-01-22,Drama,4.0,539
+285,12,639,"Storm in Summer, A",8,2017-06-20,Drama,7.3,134
+286,757,422,Blubberella,339,2019-12-29,Action|Comedy,4.7,306
+287,24,799,Human Touch,367,1992-08-19,Drama,6.0,228
+288,247,439,Shadow of the Holy Book (Pyhän kirjan varjo),6,1994-12-08,Documentary,5.8,313
+289,627,769,Samoure,429,1994-02-16,Drama,9.2,437
+290,667,473,My Own Man,95,1994-04-10,(no genres listed),1.8,238
+291,402,741,Manslaughter (Drabet),508,1995-02-20,Drama,5.4,402
+292,40,612,Hansel & Gretel,343,2014-08-24,Drama|Fantasy|Horror|Mystery|Thriller,2.6,695
+293,550,599,Barefoot,715,2014-04-16,Comedy|Drama|Romance,1.1,583
+294,375,354,Fullmetal Alchemist: The Sacred Star of Milos,207,2020-05-27,Action|Adventure|Animation,2.5,697
+295,477,783,Visitor Q (Bizita Q),59,2016-11-21,Comedy|Drama|Horror,2.9,364
+296,416,344,Ariel,313,1994-11-11,Drama,6.0,112
+297,105,562,Incident at Oglala,623,2017-03-18,Documentary,5.4,311
+298,673,26,Cube 2: Hypercube,501,2012-01-03,Horror|Mystery|Sci-Fi,4.9,381
+299,657,540,Tomcats,311,1994-08-26,Comedy,2.1,614
+300,445,275,Forklift Driver Klaus: The First Day on the Job,476,2007-07-20,Comedy|Horror,3.3,274
+301,638,303,Logan's War: Bound by Honor,630,1998-06-06,Action|Drama|Thriller,8.9,317
+302,587,71,Death of a Salesman,345,2022-01-21,Drama,9.1,241
+303,422,503,Equilibrium,284,1995-08-08,Action|Sci-Fi|Thriller,8.2,620
+304,15,168,Trancers,126,2002-05-23,Action|Sci-Fi,7.6,625
+305,593,207,"Trip to Bountiful, The",239,2022-03-04,Drama,1.6,718
+306,716,681,Lady and the Tramp,199,2018-10-09,Animation|Children|Comedy|Romance,7.7,547
+307,484,274,Time Code,371,1995-11-16,Comedy|Drama,1.7,11
+308,616,271,Talk of Angels,195,2011-04-25,Drama,8.9,474
+309,164,793,The Haunting of Helena,71,1996-01-10,Horror|Thriller,4.7,729
+310,33,29,Ragtime,779,2013-02-25,Drama,8.7,745
+311,636,179,MacGruber,135,2021-07-16,Action|Comedy,8.3,528
+312,398,748,Black Orpheus (Orfeu Negro),96,2005-02-25,Drama|Romance,9.8,134
+313,399,448,Anna Christie,509,2017-09-29,Drama,8.3,230
+314,277,236,"Loser Takes All, The (O hamenos ta pairnei ola)",136,1997-02-08,Action|Adventure|Drama,5.8,797
+315,108,333,Run All Night,531,2011-10-31,Action|Crime|Drama|Mystery|Thriller,3.9,54
+316,582,274,"Where Angels Go, Trouble Follows",346,2004-02-18,Comedy,6.0,789
+317,142,790,"Ring, The",108,1998-10-08,Drama,5.1,231
+318,250,468,Louis C.K.: Hilarious,673,2011-05-22,Comedy,8.1,305
+319,39,29,"Human Tornado, The",512,1996-01-28,Action|Comedy,3.5,497
+320,639,97,"Pig's Tale, A",80,1994-07-08,Adventure|Comedy|Drama|Romance,8.6,280
+321,549,369,Lebanon,593,2007-01-25,Drama|War,9.5,552
+322,339,540,Outcast of the Islands,680,2003-09-01,Adventure|Drama,6.0,156
+323,330,780,Judgment in Berlin,358,1999-01-24,Crime|Drama,4.8,57
+324,691,582,Celeste and Jesse Forever (Celeste & Jesse Forever),424,2000-10-25,Comedy|Drama|Romance,7.7,795
+325,196,705,Somersault,124,2018-03-23,Drama,7.8,517
+326,217,178,Capone,558,1993-09-13,Crime|Drama,5.5,256
+327,388,344,Black Venus,323,1992-06-25,Drama,8.0,721
+328,152,450,"Lost Battalion, The",20,1994-06-02,Action|Drama|War,6.0,548
+329,713,183,Days and Hours (Kod amidze Idriza),58,2005-01-18,Drama,1.3,60
+330,28,437,"Great Rock 'n' Roll Swindle, The",5,2021-08-24,Documentary,9.3,689
+331,32,510,Grizzly Man,352,2014-06-17,Documentary,9.3,630
+332,239,739,Annie,135,2016-12-05,Children|Musical,5.1,265
+333,453,766,Hallelujah!,315,2021-11-06,Drama|Musical,6.4,673
+334,130,279,"Plot Against Harry, The",106,1993-01-09,Comedy,1.8,440
+335,383,687,Mr Hockey The Gordie Howe Story,427,2020-09-29,Drama,2.2,246
+336,649,634,Mutiny on the Bounty,446,2009-05-17,Adventure|Drama,1.4,546
+337,82,212,"Susana (Devil and the Flesh, The)",339,2003-04-22,Drama|Romance,8.7,478
+338,678,301,White Fang 2: Myth of the White Wolf,529,2020-09-03,Adventure|Children,4.9,720
+339,655,398,"Dance, Girl, Dance",236,1994-11-13,Comedy|Drama,4.9,700
+340,627,29,Not Fade Away,172,2020-12-19,Drama,3.0,780
+341,626,448,Boyz N the Hood,764,2006-08-24,Crime|Drama,1.3,200
+342,414,74,Eulogy,756,1998-06-04,Comedy|Crime|Drama,3.2,702
+343,288,689,"Alligator People, The",344,2023-04-14,Horror,6.2,405
+344,16,456,"Last Castle, The",665,1991-01-07,Action,5.8,662
+345,321,530,Untraceable,252,1999-11-16,Crime|Thriller,6.0,695
+346,285,405,Here Comes the Groom,346,1993-08-15,Comedy|Musical|Romance,3.3,514
+347,189,525,"Loved One, The",305,2002-08-19,Comedy,9.0,539
+348,499,130,"Lords of Salem, The",62,2003-04-14,Horror|Thriller,9.5,734
+349,675,223,Knute Rockne All American,599,2020-04-02,Drama,7.0,767
+350,616,461,"Dunce Class on Vacation, The (Hababam sinifi tatilde)",413,2020-08-01,Comedy,3.9,244
+351,559,118,"Descent, The",159,2010-08-22,Adventure|Drama|Horror|Thriller,4.9,73
+352,772,475,Boy,450,2005-08-18,Comedy|Drama,7.2,597
+353,789,592,Inside Paris (Dans Paris),743,2010-12-07,Drama,9.7,672
+354,721,517,"Desert Fox, The",92,2011-06-05,Drama|War,2.2,41
+355,121,48,Come Out and Play,54,2000-05-05,Horror,7.5,523
+356,249,646,"President's Man: A Line in the Sand, The",462,2008-05-03,Action|Drama|Thriller,2.0,82
+357,584,72,Deep Rising,362,2016-01-14,Action|Horror|Sci-Fi,2.3,783
+358,465,687,The Duke of Burgundy,696,1996-09-28,Drama,4.2,174
+359,339,451,Hello Ladies: The Movie,784,2005-01-29,Comedy,3.6,421
+360,456,149,Original Gangstas,143,1994-05-03,Crime,8.2,504
+361,207,10,Cowboy del Amor,584,2008-03-14,Documentary,7.1,565
+362,79,606,The Boy,75,2016-04-13,(no genres listed),6.0,526
+363,166,16,"Legend of Lobo, The",584,2024-08-15,Adventure|Children,4.9,310
+364,437,113,Privates on Parade,409,2019-07-07,Comedy|Drama|War,8.9,703
+365,435,298,Oblivion Island: Haruka and the Magic Mirror (Hottarake no shima - Haruka to maho no kagami),582,2012-09-24,Adventure|Animation|Fantasy,6.0,92
+366,167,132,Sweet Movie,244,2000-02-04,Comedy|Drama,9.3,679
+367,33,463,Violence at Noon (Hakuchu no torima),313,1997-10-10,Drama,7.9,181
+368,340,523,Child's Play 2,48,2012-05-04,Horror|Thriller,8.0,672
+369,618,106,Dallas,609,1997-08-28,Western,5.8,162
+370,513,291,Company of Heroes,579,2016-11-02,Action|War,1.1,204
+371,670,75,Educating Rita,267,2018-03-08,Comedy|Drama,1.0,614
+372,512,597,Blame It on the Bellboy,70,1990-11-04,Comedy,9.5,117
+373,284,68,Rage,601,2010-03-26,Drama,8.0,791
+374,618,68,"Steam Experiment, The",503,2024-07-03,Drama|Thriller,8.3,26
+375,570,125,Trailer Park Boys: Countdown to Liquor Day,520,2009-09-08,Comedy|Crime,6.9,392
+376,396,731,247°F ,489,1992-05-28,Horror|Thriller,1.8,751
+377,751,705,Splendor in the Grass,601,2013-09-28,Drama|Romance,4.6,71
+378,655,50,Eden,84,2017-10-18,Drama|Romance,8.9,558
+379,30,794,Jesus Christ Vampire Hunter,711,2017-07-27,Action|Comedy|Horror|Musical,2.7,584
+380,650,474,Apartment Zero,94,2003-10-28,Drama|Thriller,9.1,794
+381,678,356,God's Gun,332,2021-07-28,Western,6.9,548
+382,485,634,"House of the Seven Gables, The",488,1994-11-12,Drama|Thriller,3.6,697
+383,707,608,Van Diemen's Land,657,2002-09-27,Drama,5.3,285
+384,794,246,All the Rage (It's the Rage),747,2018-03-29,Drama,2.9,793
+385,320,260,Election,519,1992-04-12,Comedy,2.0,262
+386,180,326,Ringers: Lord of the Fans,456,2020-09-12,Comedy|Documentary,5.5,102
+387,431,575,Love in the Afternoon,242,2005-11-21,Comedy|Romance,6.0,20
+388,636,530,"Month by the Lake, A",758,1995-04-17,Comedy|Drama|Romance,3.2,607
+389,23,12,Children of the Damned,367,1992-05-02,Horror|Sci-Fi|Thriller,9.2,613
+390,195,287,"Dunce Class on Vacation, The (Hababam sinifi tatilde)",759,2011-05-10,Comedy,3.4,380
+391,794,747,"Dark Half, The",131,2002-02-07,Horror|Mystery,8.5,620
+392,670,701,Twins,31,2000-01-24,Comedy,7.2,276
+393,770,715,"Girl from Monday, The",380,2015-01-02,Action|Comedy|Sci-Fi,7.2,769
+394,363,293,Nameless Gangster (Bumchoiwaui junjaeng),600,1993-09-18,Crime|Thriller,10.0,365
+395,37,600,Role Models,550,2001-05-07,Comedy,7.3,497
+396,31,681,Irreconcilable Differences,63,2024-11-07,Comedy|Drama|Romance,7.9,358
+397,16,326,Love Is News,154,1994-08-10,Comedy|Romance,5.8,417
+398,89,475,"Emperor's New Groove, The",327,2000-07-02,Adventure|Animation|Children|Comedy|Fantasy,1.2,85
+399,625,593,In God We Teach,521,1993-11-16,Documentary,7.3,152
+400,214,35,First Position,372,2014-04-25,Documentary,9.6,621
+401,177,369,"Man Who Could Work Miracles, The",594,1992-04-04,Comedy|Fantasy,8.5,765
+402,399,681,"A-Team, The",556,1992-04-10,Action|Comedy|Thriller,8.8,147
+403,355,306,Miss Violence,399,1990-05-26,Drama|Mystery,3.9,277
+404,656,46,Chosin ,192,1996-05-31,Documentary|War,4.4,56
+405,615,763,All Good Things,332,2014-06-10,Drama|Mystery|Thriller,5.4,428
+406,210,227,Silvestre,408,1996-10-05,Drama,1.2,251
+407,207,437,Tarzan and His Mate,91,2006-05-12,Action|Adventure,7.1,357
+408,247,561,"Oily Maniac, The (You gui zi)",601,2011-12-08,Horror,1.7,766
+409,402,627,Son of Paleface,561,2020-09-21,Action|Comedy|Romance|Western,2.1,168
+410,146,335,Trancers II,159,2002-12-11,Action|Sci-Fi,3.4,735
+411,593,400,"Black Orchid, The",581,1997-04-01,Drama,9.0,753
+412,45,4,"Place of One's Own, A",665,2003-07-07,Drama|Mystery|Thriller,1.6,740
+413,108,715,"Kid Stays in the Picture, The",285,2019-01-25,Documentary,1.8,233
+414,52,8,Angela,537,1999-01-08,Drama,7.0,554
+415,218,590,R,712,1994-08-14,Drama,3.2,355
+416,288,415,"Black Waters of Echo's Pond, The",143,2001-12-11,Fantasy|Horror|Thriller,9.5,550
+417,150,544,The Last Station,532,1995-06-06,Drama,7.5,166
+418,364,633,Mission: Impossible - Ghost Protocol,283,2004-06-12,Action|Adventure|Thriller|IMAX,1.6,719
+419,780,710,Cinematographer Style,113,2022-10-11,Documentary,7.8,13
+420,340,13,Black Like Me,90,2011-05-20,Drama,2.7,19
+421,14,784,American Idiots,701,2008-08-31,Comedy|Romance,5.7,106
+422,644,504,Joe Kidd,137,1990-09-11,Western,5.1,497
+423,309,658,Paint It Yellow (Rang De Basanti),453,2021-05-20,Action|Comedy|Drama,3.4,510
+424,250,723,"Man Who Captured Eichmann, The",255,2008-07-03,Drama|War,5.4,475
+425,499,319,Can Mr. Smith Get to Washington Anymore?,649,2000-11-17,Documentary,7.1,486
+426,732,161,Jean-Michel Basquiat: The Radiant Child,738,2023-03-24,Documentary,9.7,634
+427,607,37,Bay of Angels (La baie des anges),665,2001-12-27,Drama|Romance,3.1,585
+428,770,126,Abbott and Costello Meet Dr. Jekyll and Mr. Hyde,86,2023-06-25,Comedy|Horror|Sci-Fi,9.3,100
+429,725,393,Grown Ups,555,2019-11-24,Comedy,7.0,16
+430,784,541,Enchantment,130,2022-03-12,Drama|Romance,7.0,676
+431,540,80,Captain Conan (Capitaine Conan),623,2010-04-18,Drama|War,7.2,282
+432,638,717,Vigilante,229,2015-03-15,Action|Crime|Drama,3.6,340
+433,278,455,Dead Set,128,2022-05-12,Comedy|Drama|Horror,2.9,514
+434,644,332,Navy Seals,384,1992-11-20,Action|Adventure|War,5.8,689
+435,792,137,Evangelion: 1.0 You Are (Not) Alone (Evangerion shin gekijôban: Jo),746,2004-12-21,Action|Animation|Sci-Fi,3.4,798
+436,399,494,Forever Mine,260,1999-08-21,Crime|Drama|Romance|Thriller,5.7,696
+437,783,590,"Big Town, The",89,1994-06-25,Drama|Romance|Thriller,8.2,289
+438,732,520,Balls Out: Gary the Tennis Coach,404,1994-04-03,Comedy,8.2,549
+439,388,525,This American Journey,755,2000-04-14,Documentary,2.1,376
+440,506,236,Coney Island,5,2000-05-29,Comedy,3.5,287
+441,212,526,Tinker Tailor Soldier Spy,198,1996-07-05,Drama|Film-Noir|Thriller,2.6,785
+442,214,305,Devil Hunter (El caníbal),152,2013-02-25,Horror,3.6,529
+443,590,110,"River Murders, The",651,2017-02-23,Thriller,2.3,591
+444,188,208,"Cat in the Hat, The",490,2008-09-21,Children|Comedy,4.8,97
+445,32,625,Fragile,448,2003-09-13,Horror|Thriller,9.4,481
+446,503,351,Moscow Does Not Believe in Tears (Moskva slezam ne verit),484,1999-12-08,Drama|Romance,5.8,392
+447,618,411,My Sucky Teen Romance,283,2020-04-08,Comedy,8.9,337
+448,35,328,In Passing,27,2001-10-08,Drama|Fantasy|Mystery,7.5,421
+449,471,326,PK,124,2009-12-01,Comedy|Drama|Fantasy|Mystery|Romance,3.0,340
+450,470,428,If Looks Could Kill,736,1993-03-21,Action|Comedy,5.3,766
+451,738,138,"Christmas Carol, A",365,1997-12-06,Children|Drama|Fantasy,7.7,564
+452,630,222,Shadows of a Hot Summer (Stíny horkého léta),622,2005-11-13,Drama|Thriller,2.2,275
+453,239,388,Second in Command,171,1992-09-10,Action|Thriller,6.6,532
+454,429,655,My Life in Ruins,714,2020-03-16,Comedy,4.5,283
+455,661,86,Hysteria,578,1990-04-17,Comedy|Romance,4.2,337
+456,411,210,Real Steel,449,2001-08-02,Action|Drama|Sci-Fi|IMAX,2.4,177
+457,306,528,"Texas Chainsaw Massacre: The Beginning, The",753,2017-10-20,Horror|Thriller,7.8,186
+458,431,471,Phil Spector,613,2011-10-29,Drama,4.8,585
+459,537,169,Hour of the Wolf (Vargtimmen),424,1997-05-25,Drama|Horror,3.1,739
+460,688,781,"Girl, The",500,2019-05-15,Drama,3.6,572
+461,764,186,Don,126,2019-10-09,Action|Comedy|Crime|Drama|Musical|Thriller,3.3,769
+462,123,668,Louis C.K.: Chewed Up,225,1991-01-17,Comedy,1.3,17
+463,370,466,More Than a Game,692,1992-04-05,Documentary,7.7,3
+464,28,202,Smashing Time,718,2022-07-14,Comedy,4.8,513
+465,130,277,Wal-Mart: The High Cost of Low Price,377,2005-11-11,Documentary,9.5,590
+466,305,131,TiMER,267,2008-05-11,Comedy|Drama|Fantasy|Romance,6.1,634
+467,194,223,"Onion Movie, The",622,1997-07-08,Comedy,2.9,445
+468,561,46,"Promise, The (Versprechen, Das)",532,2011-10-17,Drama|Romance,6.3,602
+469,26,437,Pearls and Pigs (Helmiä ja sikoja),669,2015-12-13,Comedy,6.1,789
+470,487,552,Waltz with Bashir (Vals im Bashir),73,2006-06-19,Animation|Documentary|Drama|War,1.6,568
+471,785,184,"Pure Formality, A (Pura formalità, Una)",70,2011-05-09,Crime|Film-Noir|Mystery|Thriller,6.1,488
+472,6,237,Johns,76,2017-10-25,Drama,5.6,200
+473,371,157,Hearts and Minds,315,2008-10-27,Drama,7.5,279
+474,642,562,State Fair,466,2020-05-22,Musical|Romance,7.3,170
+475,296,546,Mad About Mambo,631,2020-08-02,Comedy|Romance,7.7,398
+476,604,103,Edmond,709,2020-08-09,Drama|Thriller,1.4,309
+477,719,438,Away with Words (San tiao ren),641,2004-07-22,(no genres listed),6.9,286
+478,20,361,Remonstrance,287,1993-01-29,(no genres listed),4.9,772
+479,43,418,In Her Shoes,666,2004-04-23,Comedy|Drama,3.2,763
+480,476,345,Pillow Talk,793,1998-12-29,Comedy|Musical|Romance,2.1,306
+481,672,546,Stefano Quantestorie,382,1992-08-17,Comedy|Drama,1.4,593
+482,725,342,"House of Seven Corpses, The",259,2015-04-27,Horror,1.9,769
+483,108,109,Any Given Sunday,485,2012-01-21,Drama,1.2,575
+484,364,510,Pepe,704,1991-07-06,Comedy|Musical,5.2,371
+485,523,342,"Cameraman's Revenge, The (Mest kinematograficheskogo operatora)",467,1992-05-13,Animation|Comedy,4.5,53
+486,246,385,Abbott and Costello Meet the Keystone Kops,786,2005-02-23,Comedy,8.2,735
+487,44,439,Heart of a Lion,226,2016-12-22,Comedy|Drama|Romance,8.6,60
+488,134,222,Just the Ticket,203,1998-04-20,Comedy|Romance,2.3,460
+489,184,147,Edmund Kean: Prince Among Lovers (Kean),792,2021-07-01,Drama,9.1,135
+490,751,307,"Yesterday, Today and Tomorrow (Ieri, oggi, domani)",606,2013-02-02,Comedy,6.9,715
+491,128,48,Raise the Titanic,102,2017-07-11,Drama|Thriller,3.8,139
+492,748,528,Mississippi Masala,123,2002-02-17,Drama|Romance,1.6,269
+493,346,703,Jesse Stone: Benefit of the Doubt,675,2021-07-02,Crime|Drama,5.6,550
+494,605,748,"Kids in the Hall: Same Guys, New Dresses",311,2012-11-26,Comedy|Documentary,4.6,735
+495,479,618,Roula,228,2024-06-07,Drama,7.4,147
+496,86,448,"Monster, The (Mostro, Il)",473,2019-01-31,Comedy,3.2,214
+497,625,84,Louie Bluie,288,2014-03-02,Documentary,7.3,590
+498,378,759,"Heaven Knows, Mr. Allison",528,1999-10-31,Drama|War,7.4,774
+499,151,456,"Road, Movie",410,2014-08-18,Comedy|Drama|Fantasy,1.6,627
+500,606,121,Please Give,291,2007-12-31,Comedy|Drama,6.0,58
+501,800,82,Pascali's Island,340,2004-04-26,Drama,1.0,376
+502,272,31,Look Who's Talking Too,299,2002-01-23,Comedy|Romance,4.1,181
+503,110,145,Besa (Solemn Promise),5,2017-06-30,Drama|Romance|War,4.7,637
+504,509,679,Three Crowns of the Sailor (Les trois couronnes du matelot),751,2010-03-18,Drama|Fantasy,5.4,747
+505,173,503,"Carpenter, The",178,2022-11-02,Horror|Thriller,5.6,111
+506,796,352,Donkey Skin (Peau d'âne),198,2007-05-15,Children|Drama|Fantasy|Musical|Romance,3.9,322
+507,648,551,"Case of the Whitechapel Vampire, The",427,1994-02-20,Crime|Mystery,7.7,327
+508,695,241,Hearts of the West,421,2002-02-02,Comedy|Western,7.3,595
+509,152,3,Ito: A Diary of an Urban Priest (Seitti - kilvoittelijan päiväkirja),587,2004-02-14,Documentary,8.2,606
+510,215,145,Roula,725,2015-03-31,Drama,9.5,184
+511,617,521,Unspeakable Acts ,430,2022-04-03,Drama,2.4,582
+512,440,556,Detention,264,1992-09-21,Comedy|Horror,8.9,369
+513,557,135,"Christmas Carol: The Musical, A (Christmas Carol, A)",506,1993-02-10,Drama|Fantasy|Musical,9.8,352
+514,197,634,The Little Matchgirl,36,1990-04-02,Animation,7.3,116
+515,502,288,"Confessor, The (a.k.a. The Good Shepherd)",459,1996-06-30,Drama|Thriller,4.0,230
+516,140,755,Vantage Point,531,2021-12-05,Action|Drama|Thriller,6.2,127
+517,53,726,New Gladiators (I guerrieri dell'anno 2072),426,1992-10-04,Action|Drama|Mystery,9.7,278
+518,67,121,21 Jump Street,269,1996-01-27,Action|Comedy|Crime,9.7,570
+519,460,676,"Outfit, The",372,2020-08-13,Crime|Drama|Thriller,2.5,260
+520,377,347,"Band Called Death, A",232,1994-07-01,Documentary,4.7,348
+521,367,14,Queen - Rock Montreal,71,1998-10-26,(no genres listed),1.5,702
+522,326,46,"Skulls, The",153,1996-06-07,Thriller,6.8,533
+523,616,738,Shine,281,2003-10-06,Drama|Romance,4.2,127
+524,142,763,Our Relations,720,2006-03-28,Comedy,4.8,398
+525,215,266,Schooled: The Price of College Sports ,323,2006-01-16,Documentary,2.6,555
+526,135,492,Love in the Time of Hysteria (Sólo con tu pareja),446,2006-07-29,Comedy|Romance,9.0,366
+527,104,472,"Love Song for Bobby Long, A",470,1991-07-27,Drama,9.5,359
+528,41,524,House of Sand (Casa de Areia),133,2023-11-11,Drama,8.4,149
+529,656,13,White Mischief,276,2003-02-19,Crime|Drama|Romance|Thriller,7.4,205
+530,84,162,Police Academy 6: City Under Siege,476,1995-09-06,Comedy|Crime,7.1,564
+531,620,726,Stay Cool,766,2018-03-22,Comedy|Drama|Romance,3.8,537
+532,366,19,High and Low (Tengoku to jigoku),248,2020-09-07,Crime|Drama|Film-Noir|Thriller,5.4,90
+533,770,398,"Study in Terror, A",141,2022-02-20,Crime|Drama|Horror,3.5,34
+534,679,588,Dead Men Walk,472,2004-02-19,Drama|Horror|Mystery,9.1,711
+535,298,743,Speed Racer,794,1991-07-21,Action|Children|Sci-Fi|IMAX,3.2,158
+536,674,730,Hurt,62,2003-08-11,Drama|Horror|Thriller,7.9,773
+537,230,155,Bey Yaar,383,2018-09-19,Children|Comedy|Drama,8.7,286
+538,42,8,Out in the Dark,289,2005-09-14,Drama|Romance,8.6,349
+539,738,242,The Vexxer,268,1997-01-20,Comedy|Crime,7.8,166
+540,554,483,My Favorite Season,542,2007-04-01,Drama,7.9,384
+541,207,181,They Call Me Bruce? (a.k.a. A Fistful of Chopsticks),78,2023-05-06,Comedy,3.7,272
+542,19,525,Passage to Marseille,206,2016-01-08,Adventure|Drama|War,2.6,415
+543,530,361,Hell and Back Again,184,2014-09-12,Documentary|Drama|War,7.1,566
+544,767,274,"Mariachi, El",587,1993-12-29,Action|Crime|Thriller|Western,3.0,126
+545,264,162,Female Perversions,267,2015-08-05,Drama,4.3,601
+546,678,444,On the Run,567,2010-10-12,Crime|Drama|Thriller,6.3,248
+547,732,527,One Small Hitch,448,2020-08-16,Comedy|Romance,4.5,758
+548,554,791,Hatchet III,382,2024-05-05,Comedy|Horror,5.8,63
+549,522,77,American Buffalo,685,2023-09-19,Crime|Drama,9.5,9
+550,692,245,Love Letters,214,1993-02-05,Drama|Mystery|Romance,3.9,284
+551,367,289,"Englishman in New York, An",677,2001-02-24,Drama,9.7,712
+552,790,147,"Lawless Breed, The",462,2020-09-04,Action|Romance|Western,4.2,143
+553,196,655,Floating,81,2008-06-20,Drama,7.2,83
+554,772,676,Shoot 'Em Up,263,2015-03-08,Action|Comedy|Crime,9.5,108
+555,620,538,Babies (Bébé(s)),404,1995-09-24,Documentary,7.3,660
+556,753,449,Schwarze Sonne,486,1990-11-23,Documentary,7.5,208
+557,55,333,Lost Souls,753,2012-03-16,Drama|Horror|Thriller,8.8,390
+558,107,141,Cows (Vacas),595,1995-10-01,Drama,7.6,594
+559,531,128,"Monster Walks, The",83,1993-06-29,Horror,2.3,606
+560,226,591,Sidewalks of London (St. Martin's Lane),198,2015-05-21,Comedy,8.9,208
+561,780,23,Sense & Sensibility,239,2023-12-10,Drama|Romance,4.9,62
+562,793,704,Horse Feathers,45,2022-03-04,Comedy,2.1,633
+563,507,380,Vlad Tepes (Vlad &#354;epe&#351;),547,2008-03-16,Drama,3.1,665
+564,515,308,"Scout, The",654,2004-05-26,Comedy|Drama,7.9,537
+565,150,529,"Master and Margaret, The (Il maestro e Margherita)",232,2016-10-20,Drama|Fantasy|Romance,5.4,193
+566,6,183,"Red Desert (Deserto rosso, Il)",582,2016-02-18,Drama,7.0,213
+567,81,363,Moll Flanders,109,2023-12-31,Drama,9.5,290
+568,548,696,Villa Rides!,149,2015-03-11,War|Western,9.0,372
+569,357,75,Where Sleeping Dogs Lie,689,2015-04-24,Crime,4.1,97
+570,731,742,Renaissance,579,2001-08-21,Action|Animation|Film-Noir|Sci-Fi|Thriller,5.1,557
+571,771,107,"Dreamworlds II: Desire, Sex, Power in Music Video",38,2005-03-10,Documentary,5.7,561
+572,419,487,Black Widow,57,2018-08-28,Drama|Mystery,2.9,254
+573,760,179,Sordid Lives,395,2010-07-22,Comedy,7.0,529
+574,707,245,Scooby-Doo! WrestleMania Mystery,445,2019-02-18,Animation|Children,7.5,657
+575,468,671,300: Rise of an Empire,146,2008-06-09,Action|Drama|War|IMAX,7.4,509
+576,663,444,Dead Men Tell,232,2024-10-15,Comedy|Crime|Drama|Mystery|Thriller,1.5,648
+577,522,275,Alice in Wonderland,183,2021-02-27,Adventure|Comedy|Fantasy,5.9,56
+578,551,110,Sorority Row,81,2001-09-02,Horror|Thriller,4.1,659
+579,99,24,Hair,244,1996-04-24,Comedy|Drama|Musical,6.4,421
+580,414,3,Close Encounters of the Third Kind,320,1990-07-24,Adventure|Drama|Sci-Fi,9.3,339
+581,509,216,"Bon Cop, Bad Cop",701,1992-11-18,Action|Comedy|Crime|Thriller,6.4,186
+582,661,688,"Truth About Love, The",573,2019-12-30,Comedy|Romance,5.8,269
+583,539,382,"Divide, The",262,1995-11-08,Thriller,7.9,113
+584,475,138,Little Birds,157,2004-12-11,Drama,8.1,43
+585,503,744,Funny Bones,522,2014-08-05,Comedy|Drama,7.7,85
+586,98,587,"Fourth State, The (Die vierte Macht)",686,1994-06-14,Thriller,1.9,180
+587,389,243,Enough,284,1990-05-28,Drama|Thriller,2.5,94
+588,308,251,Dying Breed,12,1999-01-03,Horror|Thriller,7.5,628
+589,343,757,I Drink Your Blood,80,1992-09-10,Horror,2.9,309
+590,266,673,Sacred Heart,793,2002-07-23,(no genres listed),3.0,310
+591,590,169,DarkBlueAlmostBlack (Azuloscurocasinegro),523,2005-04-15,Drama|Romance,8.9,604
+592,634,153,"New Life, A (La vie nouvelle)",402,2004-07-25,Drama,8.8,455
+593,668,781,"Appeared, The (Aparecidos)",539,2002-07-17,Horror|Thriller,6.9,182
+594,324,164,The Auction,56,2006-10-09,Drama,2.2,386
+595,627,375,Backtrack (Catchfire),289,1994-12-15,Action|Drama|Thriller,5.6,636
+596,525,179,"Jacob the Liar (Jakob, der Lügner)",107,2007-09-03,Drama,1.9,84
+597,671,706,August,641,2020-10-02,Drama,9.5,304
+598,458,217,What's Your Number?,177,2019-02-16,Comedy|Romance,2.9,60
+599,211,298,Citizen Kane,672,2009-06-10,Drama|Mystery,2.7,659
+600,498,345,I'll Be Home For Christmas,712,2011-08-30,Comedy|Romance,9.0,41
+601,30,201,"Pianist, The",666,2023-06-16,Drama|War,7.7,592
+602,155,434,"Exterminating Angel, The (Ángel exterminador, El)",719,1999-04-03,Comedy|Drama|Fantasy|Mystery,7.8,553
+603,157,211,Genocide,682,1993-07-29,Documentary,2.9,792
+604,796,330,"Captive, The",695,2015-02-05,Crime|Drama|Thriller,4.4,192
+605,45,305,Pi,601,1999-02-23,Drama|Sci-Fi|Thriller,3.7,163
+606,600,699,Under the Bridges (Unter den Brücken),730,2009-06-12,Comedy|Drama|Romance,10.0,363
+607,257,172,"Edukators, The (Die Fetten Jahre sind vorbei)",425,2010-02-13,Comedy|Crime|Drama|Romance,7.3,46
+608,60,332,Overnight,723,1991-01-23,Documentary,8.8,316
+609,528,474,Still Life (Sanxia haoren),767,2003-11-16,Drama|Romance,6.5,777
+610,591,294,"Breaking Point, The",277,1995-12-01,Crime|Drama|Film-Noir,9.2,97
+611,169,507,"Thrushes Are Still Singing, The (Ta kourelia tragoudane akoma...)",699,2016-02-09,Adventure|Crime|Drama,3.9,429
+612,448,540,Free Range (Ballaad maailma heakskiitmisest),7,2021-12-11,Drama,2.8,7
+613,523,405,Other People's Money,217,2007-03-29,Comedy|Drama|Romance,3.1,274
+614,241,274,Remington and the Curse of the Zombadings,785,1997-08-05,Comedy|Drama|Horror,3.9,57
+615,57,637,Big Shots,88,1992-03-14,Adventure|Children|Comedy,1.3,402
+616,40,740,Dr. Cyclops,172,2014-04-06,Adventure|Horror|Sci-Fi,9.7,229
+617,560,381,Wuthering Heights,166,2001-12-20,Drama,1.7,693
+618,798,686,One of Our Dinosaurs Is Missing,25,2010-05-10,Adventure|Comedy,5.7,185
+619,4,234,Palms (Ladoni),613,2024-05-13,Documentary,2.8,81
+620,460,255,"Hole, The",49,2019-02-25,Crime|Drama|Horror|Mystery|Thriller,1.7,246
+621,519,596,The Finzi Detective Agency,661,2015-03-29,Comedy|Crime,9.0,339
+622,71,795,Monty Python and the Holy Grail,774,2022-01-28,Adventure|Comedy|Fantasy,6.5,607
+623,16,563,Welcome to L.A.,13,2010-06-06,Drama|Musical,5.6,264
+624,471,794,Kings of Recycling (Kierrätyksen kuninkaat),271,2010-12-16,Documentary,1.4,206
+625,168,266,Chu Chin Chow,556,2002-05-07,Comedy|Fantasy|Musical,1.1,137
+626,693,679,Canon,304,2012-01-21,Animation,6.8,272
+627,583,512,Season of Monsters (Szörnyek évadja) ,187,2020-09-28,Drama,2.8,372
+628,488,509,Kandahar (Safar e Ghandehar),651,1996-05-16,Drama,6.3,377
+629,452,160,Mondo Topless,754,2024-07-28,Documentary,6.6,73
+630,317,537,"Bikini Carwash Company, The",330,2008-04-19,Comedy,7.7,192
+631,788,447,"Naked Face, The",643,2023-05-09,Action|Mystery|Thriller,2.0,793
+632,798,642,Nancy Drew,237,2021-03-22,Adventure|Crime|Thriller,2.6,128
+633,335,438,Chandu the Magician,203,2006-11-07,Action|Adventure|Fantasy|Sci-Fi,1.7,38
+634,596,8,Around the World in 80 Days,784,2009-09-19,Adventure|Comedy,5.5,306
+635,791,468,"Life and Times of Hank Greenberg, The",165,2001-07-18,Documentary,7.2,373
+636,453,731,Onegin,717,1994-05-06,Drama|Romance,5.7,194
+637,449,64,"Brandon Teena Story, The",213,2022-10-06,Documentary,3.7,667
+638,332,145,Mulan,232,1995-09-21,Adventure|Animation|Children|Comedy|Drama|Musical|Romance,6.0,193
+639,444,318,Cinema Verite,73,2003-05-07,Drama,9.7,463
+640,758,191,Minecraft: The Story of Mojang,697,1993-09-24,Documentary,2.1,614
+641,468,205,The New Centurions,316,2006-02-26,Action|Crime|Drama,1.6,705
+642,630,468,"Man with Two Brains, The",252,1991-11-21,Comedy,3.8,630
+643,107,621,Pauline & Paulette (Pauline en Paulette),409,1992-11-03,Comedy|Drama,6.7,675
+644,446,653,Can't Help Singing,403,2022-05-11,Musical|Western,2.9,392
+645,675,496,Syrup,758,2011-11-15,Comedy|Drama,2.7,556
+646,413,169,Khumba,46,2017-03-14,Adventure|Animation|Children,9.2,542
+647,496,701,Wild About Harry,299,2009-12-31,Comedy|Drama|Romance,5.5,800
+648,154,61,In Your Dreams (Dans tes rêves),533,2014-05-17,Drama,7.2,648
+649,606,60,An American Tail: The Treasure of Manhattan Island,763,2013-07-24,Adventure|Animation,2.2,100
+650,794,359,Django 2: Django Strikes Again,430,2007-03-18,Western,6.5,27
+651,83,671,Monkey Business,329,2016-11-24,Comedy|Sci-Fi,1.6,249
+652,579,682,Toomorrow,342,2003-09-14,Comedy|Musical|Sci-Fi,9.5,381
+653,640,347,"4 Months, 3 Weeks and 2 Days (4 luni, 3 saptamâni si 2 zile)",506,1990-09-19,Drama,6.1,742
+654,782,754,"Lord of the Rings, The",585,2023-05-11,Adventure|Animation|Children|Fantasy,7.5,103
+655,259,185,High Time (Big Daddy),630,2002-12-07,Comedy|Musical,4.7,726
+656,475,499,"Man from Elysian Fields, The",130,1999-01-01,Drama,2.2,273
+657,445,512,Codependent Lesbian Space Alien Seeks Same,54,2016-11-05,Comedy|Romance|Sci-Fi,7.1,297
+658,580,345,Mondo,572,1999-01-30,Drama,6.5,226
+659,116,352,"Tailor of Panama, The",300,1993-11-20,Drama|Thriller,8.5,7
+660,772,432,"Man from Beyond, The",612,2024-07-04,Mystery,7.9,740
+661,22,403,Reclaim Your Brain (Free Rainer),663,2025-03-09,Comedy|Crime|Drama|Romance,7.8,747
+662,652,115,California Conquest,752,2009-09-08,Adventure|Romance|Western,1.9,566
+663,267,263,Absolute Power,492,1997-04-22,Mystery|Thriller,8.2,773
+664,351,171,Dragon Ball Z: Battle of Gods,288,2016-02-24,Action|Animation|Fantasy|IMAX,3.2,59
+665,312,126,"Friend Among Strangers, Stranger Among Friends (Svoy sredi chuzhikh, chuzhoy sredi svoikh)",137,2008-02-13,Action|War|Western,2.3,193
+666,794,695,"Darjeeling Limited, The",69,2018-09-12,Adventure|Comedy|Drama,6.3,111
+667,510,384,Eureka,292,2003-10-28,Drama,3.9,771
+668,459,17,Kiwi!,167,2002-05-31,Action|Animation,4.1,311
+669,693,408,Unhook the Stars,657,1990-07-07,Drama,2.5,611
+670,305,494,Two Bits,288,2015-07-03,Drama,4.6,773
+671,553,15,Garage Sale Mystery,551,2022-12-27,Drama,2.3,202
+672,272,130,"Scarecrow, The",670,1995-11-23,Drama|Fantasy|Romance,4.1,198
+673,223,635,Alien Nation: The Udara Legacy,436,2017-05-07,Sci-Fi,9.9,503
+674,305,587,Flash Gordon,134,2005-01-05,Action|Adventure|Sci-Fi,7.7,506
+675,414,180,RoboCop,54,1994-08-09,Action|Crime|Sci-Fi|IMAX,8.2,423
+676,320,429,Detour ,778,2006-09-11,Thriller,9.5,33
+677,602,528,Dog Day (Canicule),507,2010-07-26,Action|Crime|Drama|Thriller,3.0,116
+678,282,155,The Sinners of Hell,521,1995-11-03,Drama|Horror,6.1,655
+679,763,731,Blackbeard's Ghost,416,1998-07-30,Children|Comedy,5.9,636
+680,625,658,Burma VJ: Reporting from a Closed Country (Burma VJ: Reporter i et lukket land),628,2008-05-19,Documentary,2.9,745
+681,420,658,War of the Wildcats (In Old Oklahoma),630,2017-11-07,Western,2.3,539
+682,219,247,"Last Run, The",370,2022-12-10,Action|Crime|Drama|Thriller,7.5,678
+683,78,346,Redemption: For Robbing the Dead,704,1999-06-28,Western,2.7,538
+684,285,104,"Painting Sellers, The (Taulukauppiaat)",588,1999-05-01,Drama,9.7,147
+685,52,719,Creature with the Atom Brain,206,2015-07-30,Crime|Horror|Sci-Fi,6.9,278
+686,682,228,Hitler's Stealth Fighter,374,2000-10-21,Documentary,4.8,539
+687,61,314,Flight of Fury,482,1994-06-27,Action,7.3,63
+688,682,376,"General, The",103,2002-07-05,Comedy|War,1.3,401
+689,27,795,Elevator to the Gallows (a.k.a. Frantic) (Ascenseur pour l'échafaud),286,2019-07-20,Crime|Drama|Thriller,4.4,638
+690,225,85,Never Say Never Again,14,2000-05-05,Action|Adventure|Thriller,2.9,589
+691,506,626,Star Kid,450,2008-01-08,Adventure|Children|Fantasy|Sci-Fi,9.4,527
+692,123,373,Someone Marry Barry,347,1999-10-03,Comedy,3.4,116
+693,385,400,Millions,266,2024-11-29,Children|Comedy|Crime|Drama|Fantasy,9.1,227
+694,519,772,Tattoo,530,1998-12-06,Drama|Thriller,8.1,134
+695,631,377,Confessor Caressor,290,2003-03-10,(no genres listed),8.7,318
+696,604,653,Resident Evil: Extinction,413,1999-08-27,Action|Horror|Sci-Fi|Thriller,4.9,592
+697,654,538,Dance with a Stranger,624,1994-01-18,Crime|Drama|Thriller,9.8,696
+698,562,727,"Edge of Heaven, The (Auf der anderen Seite)",498,2021-07-05,Drama,1.1,169
+699,666,590,"World According to Sesame Street, The",337,1997-08-21,Documentary|War,9.8,694
+700,465,271,"Phenix City Story, The",148,2003-10-09,Crime|Drama|Film-Noir,5.2,321
+701,186,48,Opfergang,104,2023-09-15,Drama,7.6,229
+702,738,536,Möbius,571,2004-01-16,Drama|Thriller,2.4,772
+703,489,733,"Pool, The (Swimming Pool - Der Tod feiert mit) ",746,2003-08-12,Horror|Thriller,5.6,131
+704,671,618,Moonstruck,452,2019-01-26,Comedy|Romance,8.2,470
+705,721,585,I'm King Kong!: The Exploits of Merian C. Cooper ,223,2024-07-19,Documentary,3.9,725
+706,27,169,Paradise Lost 2: Revelations,174,2012-10-17,Documentary,5.1,306
+707,511,562,From Beyond the Grave (Creatures),673,1994-09-29,Horror,1.4,14
+708,143,378,Foolproof,505,2012-10-21,Action|Comedy|Crime|Thriller,4.7,588
+709,543,36,Braveheart,489,1991-09-02,Action|Drama|War,1.1,600
+710,463,124,Piñero,694,1997-01-05,Drama,7.0,477
+711,435,159,All Through the Night,698,1995-10-08,Action|Comedy|Drama|Thriller|War,7.4,408
+712,718,352,Man of Iron (Czlowiek z Zelaza),548,2001-10-18,Drama|Romance,5.9,433
+713,748,554,Night of the Living Dorks,389,1990-10-05,Comedy|Horror,8.4,556
+714,595,182,Black Dragons,162,1996-07-07,Mystery|Thriller|War,8.5,669
+715,485,66,Visioneers,100,2004-07-11,Comedy,1.8,38
+716,112,221,"Song for Martin, A (Sång för Martin, En)",647,2015-02-18,Drama,1.1,550
+717,194,583,Twentynine Palms,378,2015-11-10,Drama|Horror,7.6,35
+718,760,186,Hollidaysburg,209,2015-10-10,Comedy,2.3,555
+719,177,241,"Last of England, The",174,2014-02-15,Drama,5.4,712
+720,657,232,Salting the Battlefield,512,2006-11-30,Drama|Mystery|Thriller,6.1,14
+721,256,568,Escape from the Planet of the Apes,63,2022-11-06,Action|Sci-Fi,2.4,279
+722,161,103,Rain,104,2014-04-05,Drama,5.3,612
+723,70,593,Jagged Edge,341,2020-02-05,Crime|Romance|Thriller,2.4,158
+724,726,182,"Sorcerer and the White Snake, The (Bai she chuan shuo)",208,1993-12-28,Action|Fantasy|Romance,9.5,188
+725,121,196,Road to Nowhere,698,2017-07-16,Romance|Thriller,6.1,758
+726,736,605,Bleak House,724,2007-12-29,Drama,2.8,522
+727,133,408,Eastern Plays,101,2020-11-06,Drama,4.8,289
+728,516,219,Totally F***ed Up,619,2011-06-20,Drama,3.3,202
+729,239,134,Faces of Death,568,2018-05-25,Documentary|Horror,8.3,136
+730,304,760,Animated Motion: Part 5,123,1999-05-03,Animation|Documentary,3.7,49
+731,744,715,The Sinners of Hell,370,2012-11-12,Drama|Horror,1.2,425
+732,294,207,Don't Think About It (Non Pensarci),740,2019-04-29,Comedy|Drama,4.6,337
+733,506,190,Cowboy,349,2024-02-24,Western,7.9,429
+734,390,15,Year One,586,1993-08-26,Adventure|Comedy,5.0,48
+735,213,458,Factotum,587,2000-03-17,Drama,4.7,72
+736,452,450,"Law, The (a.k.a. Where the Hot Wind Blows!) (Legge, La)",67,2012-02-13,Drama,3.3,12
+737,196,141,Waco: A New Revelation,287,2018-03-20,Documentary,2.7,390
+738,272,358,"Newburgh Sting, The",395,2016-12-21,Documentary,10.0,467
+739,517,430,Caught Up,204,2003-07-29,Crime,2.5,305
+740,32,481,Stella: Live in Boston,585,1996-01-19,Comedy,1.4,298
+741,40,133,My Boy Jack,697,2006-10-04,Drama|War,6.8,378
+742,698,520,Sophie's Revenge (Fei chang wan mei),200,2012-10-01,Comedy|Romance,4.6,430
+743,463,164,Heartbreak Hotel,559,2019-12-31,Comedy,9.9,114
+744,795,138,Peggy Sue Got Married,672,2017-07-15,Comedy|Drama,6.9,688
+745,89,451,That's Black Entertainment,174,2019-09-16,Documentary,1.9,619
+746,580,758,New Orleans Uncensored,715,1991-04-02,Crime|Drama|Film-Noir|Thriller,9.9,472
+747,649,294,A Mulher Invisível,511,2024-01-05,Comedy,8.2,45
+748,4,587,Ever After: A Cinderella Story,346,1992-04-11,Comedy|Drama|Romance,6.3,557
+749,62,339,Flight of the Navigator,121,2006-12-07,Adventure|Children|Sci-Fi,7.5,127
+750,393,240,10 Questions for the Dalai Lama,208,2017-07-15,Documentary,3.7,791
+751,566,207,Boris Godunov,186,2019-02-25,Drama,8.3,435
+752,550,142,Article 99,319,2001-03-09,Comedy|Drama,9.2,247
+753,294,235,Aerial Gunner,31,2004-08-08,Drama|War,9.9,716
+754,345,452,"Road to Wellville, The",543,2005-08-21,Comedy,3.4,37
+755,60,710,Battle Circus,639,1996-12-19,Drama|Romance|War,1.2,681
+756,505,787,My Ain Folk,679,2014-02-16,Drama,5.8,776
+757,765,483,Good Vibrations,528,2001-05-02,Drama|Musical,3.2,370
+758,424,214,Ivan Vasilievich: Back to the Future (Ivan Vasilievich menyaet professiyu),36,1996-02-20,Adventure|Comedy,4.5,446
+759,760,539,Make Way for Tomorrow,107,1993-03-09,Drama,2.2,622
+760,9,199,Disorganized Crime,323,2005-08-10,Action|Comedy,2.7,547
+761,58,445,The Sea That Thinks,182,2009-10-13,(no genres listed),1.6,707
+762,22,127,Mr. Baseball,175,2000-04-24,Comedy|Romance,9.3,386
+763,503,321,Three Quarter Moon,633,1996-01-04,Comedy|Drama,2.1,5
+764,135,708,Maleficent,342,2003-06-17,Action|Adventure|Children|IMAX,9.5,125
+765,71,610,Vermin,163,1996-09-25,Comedy,1.2,224
+766,285,672,Singham,528,2008-05-11,Action|Drama|Romance,3.5,291
+767,450,327,"Bat Whispers, The",273,2002-01-02,Crime|Drama|Mystery,8.4,396
+768,541,368,Mr. Popper's Penguins,578,2005-01-15,Comedy,2.4,675
+769,16,297,Ripley's Game,379,2008-08-28,Drama|Thriller,9.3,757
+770,71,216,Smoke Signals,496,2001-01-28,Comedy|Drama,6.1,243
+771,491,541,Yamakasi - Les samouraïs des temps modernes,61,1992-09-20,Action|Crime|Drama,9.9,350
+772,136,594,Sweet Evil (L'enfance du mal),601,2023-12-21,Drama,3.3,280
+773,464,621,"Way We Laughed, The (Così Ridevano)",81,2010-06-13,Drama,2.3,523
+774,688,16,My Sister Eileen,220,2018-01-15,Comedy|Musical|Romance,6.2,328
+775,656,251,High School High,462,1996-01-22,Comedy,3.2,427
+776,446,528,"Terrorizers, The (Kong bu fen zi)",531,2020-05-17,Drama,8.3,429
+777,371,730,Big Jim McLain,208,1991-05-04,Action|Crime|Drama|Romance|Thriller,1.8,729
+778,761,469,Curdled,104,2021-04-16,Crime,9.0,91
+779,773,578,James and the Giant Peach,215,2002-12-02,Adventure|Animation|Children|Fantasy|Musical,4.8,133
+780,228,469,Speechless,703,2017-02-14,Comedy|Romance,8.6,189
+781,693,705,"Last Valley, The",765,2012-08-19,Adventure,5.1,528
+782,219,707,Grizzly Man,278,1993-11-07,Documentary,9.8,181
+783,672,611,Here Comes Mr. Jordan,283,2013-11-07,Comedy|Fantasy|Romance,6.3,482
+784,628,775,Gorko!,787,2014-08-25,Comedy,7.6,751
+785,435,250,Lone Survivor,609,2004-08-20,Action|Drama|Thriller|War,5.5,560
+786,722,77,Earth Girls Are Easy,8,2019-05-25,Comedy|Musical|Sci-Fi,6.9,145
+787,514,796,"Soldier's Plaything, A",540,2008-05-12,Comedy|Drama|Romance|War,7.3,758
+788,37,585,Resident Evil: Retribution,446,2008-10-01,Action|Horror|Sci-Fi|IMAX,8.8,592
+789,470,174,Medicine for Melancholy,443,1995-11-07,Drama|Romance,3.1,766
+790,761,497,Bob the Butler,237,1993-09-13,Comedy,5.5,118
+791,612,30,"War at Home, The",686,2013-02-17,Drama,6.2,755
+792,539,652,Red Sorghum (Hong gao liang),243,2015-04-22,Drama|War,9.9,322
+793,480,321,Victory Through Air Power,184,2020-06-09,Animation|Documentary|War,8.1,211
+794,142,317,Love Crime (Crime d'amour),741,2000-09-12,Crime|Mystery|Thriller,9.4,760
+795,616,288,Dennis the Menace,175,1992-05-13,Comedy,6.1,615
+796,255,107,Dating Games People Play,78,1996-01-14,Comedy,3.1,589
+797,92,690,Sixteen Candles,163,2016-05-25,Comedy|Romance,3.7,301
+798,629,495,"Brother Sun, Sister Moon (Fratello sole, sorella luna)",334,2012-09-30,Drama,8.5,249
+799,624,456,"Field in England, A",577,2018-01-07,Drama|Fantasy|Thriller|War,7.2,406
+800,14,5,Zone 39,103,2003-11-28,Sci-Fi,3.5,602
