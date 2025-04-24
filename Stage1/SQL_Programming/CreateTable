@@ -4,8 +4,7 @@ CREATE TABLE Agent (
     AgentFullName VARCHAR(100),
     AgencyName VARCHAR(100),
     PhoneNumber VARCHAR(20),
-    Email VARCHAR(100),
-    StartDateWithCreator DATE
+    Email VARCHAR(100)
 );
 
 -- טבלת יוצרים
