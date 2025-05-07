@@ -19,9 +19,9 @@ INSERT INTO Contract VALUES (2, 2, 2, '2021-01-10', '2022-01-10', 20000.00, 'Dir
 INSERT INTO Contract VALUES (3, 3, 3, '2020-09-18', '2021-09-18', 18000.00, 'Writer');
 
 -- Award
-INSERT INTO Award VALUES (1, 'Best Actor', 'Performance', '1990-05-10');
-INSERT INTO Award VALUES (2, 'Best Director', 'Directing', '1990-05-10');
-INSERT INTO Award VALUES (3, 'Viewer''s Choice', 'Audience', '1990-05-10');
+INSERT INTO Award VALUES (1,2, 'Best Actor', '1990-05-10');
+INSERT INTO Award VALUES (2,2, 'Best Director', '1990-05-10');
+INSERT INTO Award VALUES (3,1, 'Viewer''s Choice', '1990-05-10');
 
 -- Feedback
 INSERT INTO Feedback VALUES (1, 1, '2023-08-01', 9.0, 'Great show!');
