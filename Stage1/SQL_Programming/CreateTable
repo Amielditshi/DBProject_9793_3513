@@ -45,9 +45,10 @@ CREATE TABLE Contract (
 -- טבלת פרסים
 CREATE TABLE Award (
     AwardID INT PRIMARY KEY,
+	CreatorID INT,
     AwardName VARCHAR(100),
-    Category VARCHAR(50),
-    AwardYear Date
+    AwardYear Date,
+	FOREIGN KEY (CreatorID) REFERENCES Content_Creator(CreatorID)
 );
 
 -- טבלת משוב
