@@ -53,7 +53,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 - **[SQL INSERT](Stage1/seed_data/SQL_Script)**  
   _Manual SQL-based insertion_
 
-- **[CSV Files](Stage1/seed_data/Mock_Data)**  
+- **[CSV Files](Stage1/seed_data/Mock_Data_Files)**  
   _Data import from structured CSVs_
 
 ---
