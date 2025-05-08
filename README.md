@@ -47,7 +47,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 ### Data Insertion
 
-- **[Python Script](Stage1/seed_data/Python._Programming)**  
+- **[Python Script](Stage1/seed_data/Python._Programming/Insert_Data.py)**  
   _Automated data generation using Python_
 
 - **[SQL INSERT](Stage1/seed_data/SQL_Script)**  
