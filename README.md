@@ -140,10 +140,10 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 #### Rollback
 
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
+- **[Before Deletion](Stage2/RollbackCommit/Rollback/1_before_deletion.jpeg)**  
   _Initial state of the `Feedback` table before executing the DELETE command._
 
-- **[DELETE Executed](Stage2/RollbackCommit/Rollback/Delete_command_2.jpeg)**  
+- **[DELETE Executed](Stage2/RollbackCommit/Rollback/2_Delete_command.jpeg)**  
   _The SQL query used to delete all feedback with a rating below 2 and older than 3 years._
 
 - **[After Deletion](Stage2/RollbackCommit/Rollback/3_after_deletion_before_rollback.jpeg)**  
