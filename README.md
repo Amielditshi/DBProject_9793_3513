@@ -104,14 +104,14 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 #### Update Queries
 
-- **[Before Deletion](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Update Old Active Contracts](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
+  _Increases payment by 10% for active creators with old contracts._
 
-- **[Before Deletion](Stage2/Queries/update_queries/update_genre_high_feedback_productions.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Update Genre for High-Rated Productions](Stage2/Queries/update_queries/update_genre_high_feedback_productions.sql)**  
+  _Sets genre to "על טבעי" for productions with average rating > 5._
 
-- **[Before Deletion](Stage2/Queries/update_queries/update_production_rating_low_feedback_old_releases.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Downgrade Ratings for Old Low-Rated Productions](Stage2/Queries/update_queries/update_production_rating_low_feedback_old_releases.sql)**  
+  _Reduces rating by 10% for old productions with low feedback._
 
 
 #### Delete Queries
@@ -120,7 +120,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
   _Deletes agents not associated with any content creators._
 
 - **[Delete Low-Rated August Feedbacks](Stage2/Queries/delete_queries/delete_august_feedbacks_with_low_rating.sql)**  
-  _Removes feedbacks from August with a rating below 4._
+  _Deletes feedbacks from August with a rating below 4._
 
 - **[Delete Old Low Feedbacks](Stage2/Queries/delete_queries/delete_feedbacks_with_low_rating_older_than_3_years.sql)**  
   _Deletes feedbacks rated below 2 and older than 3 years._
