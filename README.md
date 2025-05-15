@@ -116,14 +116,14 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 #### Delete Queries
 
-- **[Before Deletion](Stage2/Queries/delete_queries/delete_agents_with_no_creators.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Delete Agents Without Linked Creators](Stage2/Queries/delete_queries/delete_agents_with_no_creators.sql)**  
+  _Deletes agents not associated with any content creators._
 
-- **[Before Deletion](Stage2/Queries/delete_queries/delete_august_feedbacks_with_low_rating.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Delete Low-Rated August Feedbacks](Stage2/Queries/delete_queries/delete_august_feedbacks_with_low_rating.sql)**  
+  _Removes feedbacks from August with a rating below 4._
 
-- **[Before Deletion](Stage2/Queries/delete_queries/delete_feedbacks_with_low_rating_older_than_3_years.sql)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Delete Old Low Feedbacks](Stage2/Queries/delete_queries/delete_feedbacks_with_low_rating_older_than_3_years.sql)**  
+  _Deletes feedbacks rated below 2 and older than 3 years._
 
 
 ---
