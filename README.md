@@ -173,6 +173,24 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 ---
 
 ### constraints
+**_This stage was critical to maintaining database reliability by enforcing data validity rules and preventing inconsistent entries._**
+In this stage, several constraints were added to ensure data integrity and consistency within the database. Initially, SELECT queries were executed to identify any existing records that violated the intended constraints. Where necessary, these records were updated with default or corrected values to maintain data validity before the constraints were enforced.
+
+The implemented constraints include:
+
+- **Check constraint on `Feedback.FeedbackRating`** — values are restricted between 1 and 10; invalid ratings were updated to the default value of 5.0.
+- **Default value for `Feedback.FeedbackDate`** — missing dates were set to the current date, and a default of `CURRENT_DATE` was established.
+- **Positive payment constraint on `Contract.Payment`** — negative payment values were corrected to zero, and a check constraint was added to prevent negative values.
+- **Date order constraint on `Contract`** — `EndDate` must be later than `StartDate`; invalid dates were adjusted to be 30 days after the start date.
+- **Valid year range on `Award.AwardYear`** — values are limited between the year 1900 and the current date; invalid years were updated to the current date.
+- **NOT NULL constraint on `Agent.Email`** — null email values were replaced with a default email before enforcing the constraint.
+- **Check constraint on `Production.ProductionRating`** — ratings must be between 0 and 10; invalid ratings were updated to 5.0.
+- **Default value for `Feedback.FeedbackRating`** — a default rating of 5.0 was set.
+
+All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `DEFAULT`, and `NOT NULL` constraints, following the correction of existing data where necessary to comply with the new rules.
+
+For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).
+
 
 ---
 
