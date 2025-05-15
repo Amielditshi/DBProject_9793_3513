@@ -174,7 +174,7 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 ### constraints
 **_This stage was critical to maintaining database reliability by enforcing data validity rules and preventing inconsistent entries._**  
-In this stage, several constraints were added to ensure data integrity and consistency within the database. Initially, SELECT queries were executed to identify any existing records that violated the intended constraints. Where necessary, these records were updated with default or corrected values to maintain data validity before the constraints were enforced.
+  In this stage, several constraints were added to ensure data integrity and consistency within the database. Initially, SELECT queries were executed to identify any existing records that violated the intended constraints. Where necessary, these records were updated with default or corrected values to maintain data validity before the constraints were enforced.
 
 The implemented constraints include:
 
