@@ -163,22 +163,22 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 - **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Commit/delete_Commit_And_Rollback_demo.sql)**    
    _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
-- **[Before Deletion](Stage2/RollbackCommit/Commit/before_deletion_commit_1.jpeg)**  
+- **[Before Deletion](Stage2/RollbackCommit/Commit/1_before_deletion_commit.jpeg)**  
   _Initial state of the `Agent` table before executing the DELETE command._
 
-- **[DELETE Executed](Stage2/RollbackCommit/Commit/Delete_command_commit_2.jpeg)**  
+- **[DELETE Executed](Stage2/RollbackCommit/Commit/2_Delete_command_commit.jpeg)**  
   _The SQL query used to delete all agents who are not assigned to any content creator._
 
-- **[After Deletion](Stage2/RollbackCommit/Commit/after_deletion_before_commit_3.jpeg)**  
+- **[After Deletion](Stage2/RollbackCommit/Commit/3_after_deletion_before_commit.jpeg)**  
   _Database state after executing the DELETE command and before issuing the COMMIT._
 
-- **[Commit Executed](Stage2/RollbackCommit/Commit/commit_executed_4.jpeg)**  
+- **[Commit Executed](Stage2/RollbackCommit/Commit/4_commit_executed.jpeg)**  
   _Execution of the COMMIT command to make the deletion permanent._
 
-- **[Rollback Attempted](Stage2/RollbackCommit/Commit/after_commit_attempted_rollback_5.jpeg)**  
+- **[Rollback Attempted](Stage2/RollbackCommit/Commit/5_after_commit_attempted_rollback.jpeg)**  
   _Attempted rollback after commit – no data was restored, as expected._
 
-- **[Final State After Commit](Stage2/RollbackCommit/Commit/final_state_after_commit_6.jpeg)**  
+- **[Final State After Commit](Stage2/RollbackCommit/Commit/6_final_state_after_commit.jpeg)**  
   _Final state of the `Agent` table confirming that the deleted records were permanently removed._
 
 ---
