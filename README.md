@@ -74,32 +74,41 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 #### Select Queries
 
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Count Active Creators per Agent](Stage2/Queries/select_queries/select_active_creators_per_agent.sql)**  
+  _Lists number of active creators represented by each agent._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Agents with Multiple Active Creators](Stage2/Queries/select_queries/select_agents_with_multiple_active_creators.sql)**  
+  _Lists agents representing multiple active content creators._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Agents with Top Creators](Stage2/Queries/select_queries/select_agents_with_top_creators.sql)**  
+  _Lists agents with creators averaging feedback rating above 8 in 5 years._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Average Ratings by Type and Year](Stage2/Queries/select_queries/select_average_ratings_by_type_and_year.sql)**  
+  _Calculates average production ratings by type and release year._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Average Payment per Month](Stage2/Queries/select_queries/select_avg_payment_per_month.sql)**  
+  _Calculates average monthly payment for each content creator._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
+  _Lists creators who won awards but lack contracts in last 3 years._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year_.sql)**  
+  _Summarizes number of contracts and total payments by creator per year._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[Creators in This Year’s Productions](Stage2/Queries/select_queries/select_creators_in_productions_this_year.sql)**  
+  _Lists creators involved in productions released this year._
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/before_deletion_1.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+- **[High Feedback and Rated Productions](Stage2/Queries/select_queries/select_productions_with_high_feedback_and_rating.sql)**  
+  _Select productions with average feedback > 8 and rating > 7.5._
+
+  - **[Productions with Negative Feedback](Stage2/Queries/select_queries/select_productions_with_negative_feedback.sql)**  
+  _Select productions with feedback ratings of 6 or lower including comments._
+
+- **[Released Productions with High Ratings](Stage2/Queries/select_queries/select_released_productions_with_ratings.sql)**  
+  _Select productions with average feedback greater than 8 and rating greater than 7.5._
+
+  - **[Summer High-Rated Productions](Stage2/Queries/select_queries/select_summer_high_rated_productions.sql)**  
+  _Lists summer releases with production rating above 8 and their average feedback._
 
 
 #### Update Queries
@@ -108,7 +117,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
   _Increases payment by 10% for active creators with old contracts._
 
 - **[Update Genre for High-Rated Productions](Stage2/Queries/update_queries/update_genre_high_feedback_productions.sql)**  
-  _Sets genre to "על טבעי" for productions with average rating > 5._
+  _Sets genre to "על טבעי" for productions with average rating greater than 5._
 
 - **[Downgrade Ratings for Old Low-Rated Productions](Stage2/Queries/update_queries/update_production_rating_low_feedback_old_releases.sql)**  
   _Reduces rating by 10% for old productions with low feedback._
