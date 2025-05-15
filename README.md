@@ -161,7 +161,7 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 #### Commit
 
-- **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**    
+- **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Commit/delete_Commit_And_Rollback_demo.sql)**    
    _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
 - **[Before Deletion](Stage2/RollbackCommit/Commit/before_deletion_commit_1.jpeg)**  
   _Initial state of the `Agent` table before executing the DELETE command._
