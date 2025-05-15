@@ -140,6 +140,9 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 #### Rollback
 
+- **[Rollback Script – Feedback Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**  
+   _Deletes all feedback with a rating below 2 and older than 3 years. This action is followed by a ROLLBACK_
+  
 - **[Before Deletion](Stage2/RollbackCommit/Rollback/1_before_deletion.jpeg)**  
   _Initial state of the `Feedback` table before executing the DELETE command._
 
@@ -158,6 +161,8 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 #### Commit
 
+- **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**    
+   _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
 - **[Before Deletion](Stage2/RollbackCommit/Commit/before_deletion_commit_1.jpeg)**  
   _Initial state of the `Agent` table before executing the DELETE command._
 
