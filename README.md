@@ -102,8 +102,9 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 - **[High Feedback and Rated Productions](Stage2/Queries/select_queries/select_productions_with_high_feedback_and_rating.sql)**  
   _Select productions with average feedback greater than 8 and rating greater than 7.5._
 
-- **[Productions with Negative Feedback](Stage2/Queries/select_queries/select_productions_with_negative_feedback.sql)**  
-  _Select productions with feedback ratings of 6 or lower including comments._
+- **[Genres with Negative Feedback](Stage2/Queries/select_queries/select_genres_with_negative_feedback.sql)**  
+  _This query identifies genres with at least 3 negative reviews (ratings ≤ 6), showing the average rating and total count of such feedback,
+  sorted by lowest average rating._
 
 - **[Summer High-Rated Productions](Stage2/Queries/select_queries/select_summer_high_rated_productions.sql)**  
   _Lists summer releases with production rating above 8 and their average feedback._
