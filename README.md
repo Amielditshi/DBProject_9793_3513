@@ -75,7 +75,8 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 #### Select Queries
 
 - **[Count Active Creators per Agent](Stage2/Queries/select_queries/select_active_creators_per_agent.sql)**  
-  _Lists number of active creators represented by each agent._
+  _This query identifies agents managing at least two currently active creators who have, on average, been with them for at least two years,
+  and ranks these agents by the average duration of their creators' affiliation._
   
 - **[Agents with Multiple Active Creators](Stage2/Queries/select_queries/select_agents_with_multiple_active_creators.sql)**  
   _Lists agents representing multiple active content creators._
