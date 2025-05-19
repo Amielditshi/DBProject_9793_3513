@@ -91,7 +91,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
   _Calculates average monthly payment for each content creator._
   
 - **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
-  _Lists creators who won awards but lack contracts in last 3 years._
+  _This query selects active content creators who have received at least one award but have not been involved in any contracts in the past three years, showing their name, join date, award name, and award year._
   
 - **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year_.sql)**  
   _Summarizes number of contracts and total payments by creator per year._
