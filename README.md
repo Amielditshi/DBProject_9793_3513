@@ -93,8 +93,8 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 - **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
   _This query selects active content creators who have received at least one award but have not been involved in any contracts in the past three years, showing their name, join date, award name, and award year._
   
-- **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year_.sql)**  
-  _Summarizes number of contracts and total payments by creator per year._
+- **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year.sql)**  
+  _This query selects the number of contracts and total payments per content creator and their agent for each of the past five years, helping to analyze recent contractual engagement and earnings trends._
   
 - **[Creators in This Year’s Productions](Stage2/Queries/select_queries/select_creators_in_productions_this_year.sql)**  
   _Lists creators involved in productions released this year._
