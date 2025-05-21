@@ -78,17 +78,8 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
   _This query identifies agents managing at least two currently active creators who have, on average, been with them for at least two years,
   and ranks these agents by the average duration of their creators' affiliation._
   
-- **[Agents with Multiple Active Creators](Stage2/Queries/select_queries/select_agents_with_multiple_active_creators.sql)**  
-  _Lists agents representing multiple active content creators._
-  
 - **[Agents with Top Creators](Stage2/Queries/select_queries/select_agents_with_top_creators.sql)**  
   _Lists agents with creators averaging feedback rating above 8 in 5 years._
-  
-- **[Average Ratings by Type and Year](Stage2/Queries/select_queries/select_average_ratings_by_type_and_year.sql)**  
-  _Calculates average production ratings by type and release year._
-  
-- **[Average Payment per Month](Stage2/Queries/select_queries/select_avg_payment_per_month.sql)**  
-  _Calculates average monthly payment for each content creator._
   
 - **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
   _This query selects active content creators who have received at least one award but have not been involved in any contracts in the past three years, showing their name, join date, award name, and award year._
