@@ -1,4 +1,5 @@
 -- view from the content_creator database
+-- This view shows each creator's agent, productions, role, remuneration, and audience feedback.
 CREATE VIEW CreatorProductionSummary AS
 SELECT
     c.CreatorID,
