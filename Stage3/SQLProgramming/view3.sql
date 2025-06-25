@@ -2,7 +2,7 @@
 -- Provide a complete overview of content creators, their productions, the deployment infrastructure, and related server activity.
 CREATE VIEW FullProductionInfrastructureView AS
 SELECT
-    -- Créateur
+    -- Creator
     cc.creatorid,
     cc.content_creatorfullname,
     cc.country AS creator_country,
@@ -18,16 +18,16 @@ SELECT
     p.productiontype,
     p.releasedate,
 
-    -- Contrat
+    -- Contract
     ct.rolecontract,
     ct.payment,
 
-    -- Déploiement
+    -- Deployment
     pd.deploymentid,
     pd.deploymentdate,
     pd.deploymentversion,
 
-    -- Serveur
+    -- Server
     s.serverid,
     s.status AS server_status,
     s.ipaddress,
@@ -41,7 +41,7 @@ SELECT
     nu.averagelatency,
     nu.packetloss,
 
-    -- Erreurs
+    -- Errors
     el.errorcode,
     el.severity,
 
