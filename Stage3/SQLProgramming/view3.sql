@@ -65,14 +65,14 @@ LEFT JOIN networkusage nu ON nu.serverid = s.serverid
 LEFT JOIN streamingsessions ss ON ss.serverid = s.serverid;
 
 
--- query 1: Top 5 productions with the highest number of server errors
+-- query 1: Top 10 productions with the highest number of server errors
 SELECT 
     title,
     COUNT(DISTINCT errorcode) AS total_errors
 FROM FullProductionInfrastructureView
 GROUP BY title
 ORDER BY total_errors DESC
-LIMIT 5;
+LIMIT 10;
 
 -- query 2: List of active creators whose productions were deployed on servers that underwent maintenance of more than 120 minutes
 SELECT DISTINCT
