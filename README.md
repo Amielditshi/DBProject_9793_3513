@@ -12,6 +12,7 @@
   - [RollbackCommit](#rollbackcommit)
   - [Constraints](#constraints)
   - [Backup](#backup2)
+- [Stage 3 – Integration and Views](#stage-3--Integration-and-Views)
 ---
 
 ## Introduction
