@@ -37,7 +37,7 @@ SELECT
     dc.city AS datacenter_city,
     dc.country AS datacenter_country,
 
-    -- Info réseau
+    -- Info network
     nu.averagelatency,
     nu.packetloss,
 
