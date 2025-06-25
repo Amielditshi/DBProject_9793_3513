@@ -203,4 +203,7 @@ For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndF
 
 - **[Database Backup](Stage2/Backup2/Backup1505_1917)**  
  _backup file_
+
 ---
+
+## Stage 3 – Integration and Views
