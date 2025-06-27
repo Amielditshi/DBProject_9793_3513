@@ -12,7 +12,9 @@
   - [RollbackCommit](#rollbackcommit)
   - [Constraints](#constraints)
   - [Backup](#backup2)
-- [Stage 3 – Integration and Views](#stage-3--Integration-and-Views)
+- [Stage 3 – Integration and Views](#stage-3--integration-and-views)
+  - [Introduction](#introduction-stage-3)
+  - [Backup](#backup3)
 ---
 
 ## Introduction
@@ -207,3 +209,23 @@ For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndF
 ---
 
 ## Stage 3 – Integration and Views
+---
+### Introduction Stage 3
+As part of the integration phase, we received a [database backup](Stage3/infrastructure_backup_for_reconstruction/infrastructure_backup_for_reconstruction)from another department in the project – the Infrastructure Department of Netflix.
+
+Using reverse engineering, we reconstructed the [DSD schema](Stage3/ReconstructedDiagrams/ReconstructedDSDdiagram)  of the infrastructure department based on the provided backup. From that schema, we derived the corresponding [ERD](Stage3/ReconstructedDiagrams/ReconstructedERDdiagram)  to visualize the logical relationships within their system.
+
+Next, we proceeded to merge the two departments' designs. This was done by analyzing both ERDs and identifying a logical connection point. To enable integration, we introduced a new entity – [ProductionDeployment](Stage3/Integration/integrate.sql.sql) – which serves as a linking table between our department and the infrastructure department.
+
+Based on this integrated model, we designed a new [ERD](Stage3/Integration/IntegrationDiagrams/ERDdiagram) and [DSD](Stage3/Integration/IntegrationDiagrams/DSDdiagram)  schema for the combined department, representing the full, unified structure of the joint system.
+
+This integration process allowed us to design a coherent, unified data model while preserving the original logic and structure of both departments.
+
+---
+### Backup3
+- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)**  
+_backup file_
+---
+
+
+
