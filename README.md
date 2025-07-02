@@ -14,6 +14,7 @@
   - [Backup](#backup2)
 - [Stage 3 – Integration and Views](#stage-3--integration-and-views)
   - [Introduction](#introduction-stage-3)
+  - [Views](#views)
   - [Backup](#backup3)
 ---
 
@@ -221,6 +222,15 @@ Based on this integrated model, we designed a new [ERD](Stage3/Integration/Integ
 
 This integration process allowed us to design a coherent, unified data model while preserving the original logic and structure of both departments.
 
+---
+### Views
+
+#### View 1
+- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
+#### View 2
+- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
+#### View 3
+- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
 ---
 ### Backup3
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)**  
