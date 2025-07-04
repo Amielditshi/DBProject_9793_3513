@@ -241,7 +241,20 @@ This integration process allowed us to design a coherent, unified data model whi
     _Retrieves all content creators with feedback ratings higher than 4.5, including the production title and its rating._
 
 #### View 2
-- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
+- **[Server Health Overview](Stage3/Views/view2/view2.sql)**
+  _Presents an aggregated view of each server’s performance and reliability metrics, including error count, maintenance frequency, latency, and packet loss. The view combines infrastructure and network data to evaluate server health across data centers._
+
+  - **[View Output Screenshot](Stage3/Views/view2/view2.png)**    
+   _Displays a sample of the ServerHealthOverview view showing key performance indicators per server._
+
+
+   - **[Query 1 – Unstable Servers](Stage3/Views/view2/view2_query1.png)**  
+   _Retrieves all servers with more than 10 errors or network latency exceeding 200ms to identify the most unstable units in the system._
+
+   - **[Query 2 – Average Latency by Country](Stage3/Views/view2/view2_query2.png)**  
+    _Calculates the average network latency per country based on the location of each data center, providing insight into regional performance variations._
+
+  
 #### View 3
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
 ---
