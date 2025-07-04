@@ -225,8 +225,21 @@ This integration process allowed us to design a coherent, unified data model whi
 ---
 ### Views
 
-#### View 1
-- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
+#### [View 1]
+
+- **[Creator Production Summary](Stage3/Views/view1/view1.sql)**  
+ _Provides a detailed overview of each content creator’s productions, their contractual role and payment, along with associated audience feedback and agent information_
+
+ - **[View Output Screenshot](Stage3/Views/view1/view1.png)**  
+   _Screenshot displaying the result of the view showing joined data from multiple tables._
+
+
+  - **[Query 1 – Average Payments by Genre](Stage3/Views/view1/view1_query1.png)**  
+   _Calculates the average payment to content creators, grouped by production genre, and orders them from lowest to highest._
+
+  - **[Query 2 – Creators with High Feedback](Stage3/Views/view1/view1_query2.png)**  
+    _Retrieves all content creators with feedback ratings higher than 4.5, including the production title and its rating._
+
 #### View 2
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
 #### View 3
