@@ -225,10 +225,17 @@ This integration process allowed us to design a coherent, unified data model whi
 ---
 ### Views
 
-#### View 1
+#### View 1  
+_This view consolidates essential information about content creators and their work within the Netflix production system._      
+_It integrates data from five key tables: `Content_Creator`, `Agent`, `Contract`, `Production`, and `Feedback`._  
+
+_The view includes the creator's identity and agent, details about productions they were involved in (title, type, genre), their contractual role and payment, and feedback received from the audience. It enables both operational tracking and analytical insights into creator engagement and production impact._    
+
+_This unified perspective supports querying by genre, evaluating performance by feedback rating, and understanding financial allocation across content types._     
+
 
 - **[Creator Production Summary](Stage3/Views/view1/view1.sql)**  
- _Provides a detailed overview of each content creator’s productions, their contractual role and payment, along with associated audience feedback and agent information_
+ _Provides a detailed overview of each content creator’s productions, their contractual role and payment, along with associated audience feedback and agent information_  
 
   - **[View Output Screenshot](Stage3/Views/view1/view1.png)**  
    _Screenshot displaying the result of the view showing joined data from multiple tables._
@@ -240,7 +247,16 @@ This integration process allowed us to design a coherent, unified data model whi
   - **[Query 2 – Creators with High Feedback](Stage3/Views/view1/view1_query2.png)**  
     _Retrieves all content creators with feedback ratings higher than 4.5, including the production title and its rating._
 
-#### View 2
+
+#### View 2  
+_This view offers a comprehensive health overview of the server infrastructure supporting Netflix content delivery._  
+_It merges data from five tables in the **Control Transmission** system: `Servers`, `Datacenters`, `ErrorLogs`, `MaintenanceRecords`, and `NetworkUsage`._  
+
+_For each server, it presents its physical location (data center name and country), operational status, total number of logged errors, maintenance actions taken, average network latency, and packet loss rate._  
+
+_This centralized view enables identification of problematic or high-risk servers and supports monitoring of geographic performance trends in the delivery network._      
+
+
 - **[Server Health Overview](Stage3/Views/view2/view2.sql)**
   _Presents an aggregated view of each server’s performance and reliability metrics, including error count, maintenance frequency, latency, and packet loss. The view combines infrastructure and network data to evaluate server health across data centers._
 
@@ -255,9 +271,29 @@ This integration process allowed us to design a coherent, unified data model whi
     _Calculates the average network latency per country based on the location of each data center, providing insight into regional performance variations._
 
   
-#### View 3
-- **[Database Backup](Stage3/Backup3/backup2506_1735.backup)** 
----
+#### View 3  
+_This advanced view was built upon the merged database following the integration of two departments: Content Creation and Infrastructure._  
+_It combines and correlates data from **11 tables**: `Content_Creator`, `Agent`, `Contract`, `Production`, `ProductionDeployment`, `Servers`, `Datacenters`, `ErrorLogs`, `MaintenanceRecords`, `NetworkUsage`, and `StreamingSessions`._   
+
+_The result is an end-to-end map of the content lifecycle—from the creators and their contractual arrangements, through the production metadata, and all the way to server deployment, error tracking, network health, maintenance, and real-time streaming data_  
+
+_This comprehensive infrastructure view enables in-depth analysis of deployment quality, performance bottlenecks, and the relationship between content production and platform reliability._  
+
+
+- **[Full Production Infrastructure View](Stage3/Views/view3/view3.sql)**
+  _Provides a comprehensive view of the entire content lifecycle, combining creators, productions, deployments, servers, and network activity into a single integrated output._
+
+  - **[View Output Screenshot](Stage3/Views/view3/view3.png)**    
+   _Shows the result of the view, demonstrating the combined structure of content and infrastructure across departments.._
+
+
+   - **[Query 1 – Productions with Most Server Errors](Stage3/Views/view3/view3_query1.png)**  
+   _Lists the top 10 productions that encountered the highest number of server errors, helping identify unstable or problematic deployments._
+
+   - **[Query 2 – Active Creators with Long Maintenance Downtime](Stage3/Views/view3/view3_query2.png)**  
+    _Retrieves active content creators whose productions were deployed on servers that experienced over 120 minutes of maintenance downtime, including key deployment and infrastructure details._
+
+  
 ### Backup3
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)**  
 _backup file_
