@@ -225,12 +225,12 @@ This integration process allowed us to design a coherent, unified data model whi
 ---
 ### Views
 
-#### [View 1]
+#### View 1
 
 - **[Creator Production Summary](Stage3/Views/view1/view1.sql)**  
  _Provides a detailed overview of each content creator’s productions, their contractual role and payment, along with associated audience feedback and agent information_
 
- - **[View Output Screenshot](Stage3/Views/view1/view1.png)**  
+  - **[View Output Screenshot](Stage3/Views/view1/view1.png)**  
    _Screenshot displaying the result of the view showing joined data from multiple tables._
 
 
