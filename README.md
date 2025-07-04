@@ -216,7 +216,7 @@ As part of the integration phase, we received a [database backup](Stage3/infrast
 
 Using reverse engineering, we reconstructed the [DSD schema](Stage3/ReconstructedDiagrams/ReconstructedDSDdiagram)  of the infrastructure department based on the provided backup. From that schema, we derived the corresponding [ERD](Stage3/ReconstructedDiagrams/ReconstructedERDdiagram)  to visualize the logical relationships within their system.
 
-Next, we proceeded to merge the two departments' designs. This was done by analyzing both ERDs and identifying a logical connection point. To enable integration, we introduced a new entity – [ProductionDeployment](Stage3/Integration/integrate.sql.sql) – which serves as a linking table between our department and the infrastructure department.
+Next, we proceeded to merge the two departments' designs. This was done by analyzing both ERDs and identifying a logical connection point. To enable integration, we introduced a new entity – [ProductionDeployment](Stage3/Integration/integrate.sql) – which serves as a linking table between our department and the infrastructure department.
 
 Based on this integrated model, we designed a new [ERD](Stage3/Integration/IntegrationDiagrams/ERDdiagram) and [DSD](Stage3/Integration/IntegrationDiagrams/DSDdiagram)  schema for the combined department, representing the full, unified structure of the joint system.
 
