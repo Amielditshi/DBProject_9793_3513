@@ -212,7 +212,7 @@ For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndF
 ## Stage 3 – Integration and Views
 ---
 ### Introduction Stage 3
-As part of the integration phase, we received a [database backup](Stage3/infrastructure_backup_for_reconstruction/infrastructure_backup_for_reconstruction)from another department in the project – the Infrastructure Department of Netflix.
+As part of the integration phase, we received a [database backup](Stage3/infrastructure_backup_for_reconstruction/infrastructure_backup_for_reconstruction) from another department in the project – the Infrastructure Department of Netflix.
 
 Using reverse engineering, we reconstructed the [DSD schema](Stage3/ReconstructedDiagrams/ReconstructedDSDdiagram)  of the infrastructure department based on the provided backup. From that schema, we derived the corresponding [ERD](Stage3/ReconstructedDiagrams/ReconstructedERDdiagram)  to visualize the logical relationships within their system.
 
