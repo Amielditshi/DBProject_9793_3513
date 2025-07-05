@@ -216,7 +216,24 @@ As part of the integration phase, we received a [database backup](Stage3/infrast
 
 Using reverse engineering, we reconstructed the [DSD schema](Stage3/ReconstructedDiagrams/ReconstructedDSDdiagram)  of the infrastructure department based on the provided backup. From that schema, we derived the corresponding [ERD](Stage3/ReconstructedDiagrams/ReconstructedERDdiagram)  to visualize the logical relationships within their system.
 
-Next, we proceeded to merge the two departments' designs. This was done by analyzing both ERDs and identifying a logical connection point. To enable integration, we introduced a new entity – [ProductionDeployment](Stage3/Integration/integrate.sql) – which serves as a linking table between our department and the infrastructure department.
+Next, we proceeded to merge the two departments' designs. This was done by analyzing both ERDs and identifying a logical connection point. 
+During the integration process, we applied several structural modifications to ensure seamless alignment between the two databases:
+
+*  **Removal of Unused Column:**
+  The column `affectedusers` was dropped from the `ErrorLogs` table, as it was completely empty and had no relevance to our data model.
+
+*  **Introduction of a Linking Entity – `ProductionDeployment`:**
+  To logically connect the two domains (content production and infrastructure), we introduced a new table named `ProductionDeployment`. This table links the `Production` and `Servers` entities, representing deployments of specific content onto specific servers.
+  The table was populated using structured CSV data, allowing for quick integration.
+  *[ProductionDeployment CSV Data](Stage3/Integration/insert_production_deployment_data.csv)*
+
+*  **Populating Missing Foreign Key – `datacenterid` in `Servers`:**
+  The `Servers` table initially lacked values for the foreign key `datacenterid`.
+  We used a SQL script that randomly assigned valid IDs from the existing `Datacenters` table, ensuring relational integrity while simulating realistic deployment conditions.
+
+All of these schema-level changes are implemented within the integration script:
+*[Integration Script – ProductionDeployment](Stage3/Integration/integrate.sql)*
+
 
 Based on this integrated model, we designed a new [ERD](Stage3/Integration/IntegrationDiagrams/ERDdiagram) and [DSD](Stage3/Integration/IntegrationDiagrams/DSDdiagram)  schema for the combined department, representing the full, unified structure of the joint system.
 
