@@ -1,0 +1,125 @@
+NOTICE:  === START: Updating server status ===
+NOTICE:  Server status update completed.
+NOTICE:  === High severity error summary by server ===
+NOTICE:  Server ID: 84, Location: Poland, High Errors: 2
+NOTICE:  Server ID: 810, Location: China, High Errors: 2
+NOTICE:  Server ID: 229, Location: Indonesia, High Errors: 2
+NOTICE:  Server ID: 872, Location: France, High Errors: 2
+NOTICE:  Server ID: 802, Location: Philippines, High Errors: 2
+NOTICE:  Server ID: 414, Location: Colombia, High Errors: 2
+NOTICE:  Server ID: 494, Location: Finland, High Errors: 2
+NOTICE:  Server ID: 539, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 819, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 817, Location: Brazil, High Errors: 1
+NOTICE:  Server ID: 170, Location: Argentina, High Errors: 1
+NOTICE:  Server ID: 712, Location: Iran, High Errors: 1
+NOTICE:  Server ID: 330, Location: Uganda, High Errors: 1
+NOTICE:  Server ID: 646, Location: China, High Errors: 1
+NOTICE:  Server ID: 849, Location: Republic of the Congo, High Errors: 1
+NOTICE:  Server ID: 292, Location: Colombia, High Errors: 1
+NOTICE:  Server ID: 971, Location: China, High Errors: 1
+NOTICE:  Server ID: 348, Location: Philippines, High Errors: 1
+NOTICE:  Server ID: 679, Location: Portugal, High Errors: 1
+NOTICE:  Server ID: 59, Location: China, High Errors: 1
+NOTICE:  Server ID: 518, Location: New Zealand, High Errors: 1
+NOTICE:  Server ID: 932, Location: United States, High Errors: 1
+NOTICE:  Server ID: 711, Location: Thailand, High Errors: 1
+NOTICE:  Server ID: 529, Location: United States, High Errors: 1
+NOTICE:  Server ID: 638, Location: Tanzania, High Errors: 1
+NOTICE:  Server ID: 879, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 775, Location: Argentina, High Errors: 1
+NOTICE:  Server ID: 329, Location: Lithuania, High Errors: 1
+NOTICE:  Server ID: 189, Location: Philippines, High Errors: 1
+NOTICE:  Server ID: 490, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 121, Location: Vietnam, High Errors: 1
+NOTICE:  Server ID: 420, Location: Colombia, High Errors: 1
+NOTICE:  Server ID: 590, Location: Germany, High Errors: 1
+NOTICE:  Server ID: 561, Location: China, High Errors: 1
+NOTICE:  Server ID: 328, Location: China, High Errors: 1
+NOTICE:  Server ID: 676, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 480, Location: Czech Republic, High Errors: 1
+NOTICE:  Server ID: 9, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 905, Location: Sweden, High Errors: 1
+NOTICE:  Server ID: 650, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 565, Location: Bulgaria, High Errors: 1
+NOTICE:  Server ID: 26, Location: Norway, High Errors: 1
+NOTICE:  Server ID: 187, Location: China, High Errors: 1
+NOTICE:  Server ID: 728, Location: Netherlands, High Errors: 1
+NOTICE:  Server ID: 965, Location: China, High Errors: 1
+NOTICE:  Server ID: 468, Location: China, High Errors: 1
+NOTICE:  Server ID: 508, Location: China, High Errors: 1
+NOTICE:  Server ID: 832, Location: United States, High Errors: 1
+NOTICE:  Server ID: 251, Location: China, High Errors: 1
+NOTICE:  Server ID: 913, Location: Peru, High Errors: 1
+NOTICE:  Server ID: 315, Location: China, High Errors: 1
+NOTICE:  Server ID: 489, Location: Serbia, High Errors: 1
+NOTICE:  Server ID: 813, Location: Bulgaria, High Errors: 1
+NOTICE:  Server ID: 347, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 74, Location: Mexico, High Errors: 1
+NOTICE:  Server ID: 624, Location: China, High Errors: 1
+NOTICE:  Server ID: 562, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 4, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 245, Location: Burkina Faso, High Errors: 1
+NOTICE:  Server ID: 743, Location: Syria, High Errors: 1
+NOTICE:  Server ID: 83, Location: Peru, High Errors: 1
+NOTICE:  Server ID: 972, Location: Belarus, High Errors: 1
+NOTICE:  Server ID: 472, Location: Brazil, High Errors: 1
+NOTICE:  Server ID: 643, Location: Sweden, High Errors: 1
+NOTICE:  Server ID: 213, Location: Nigeria, High Errors: 1
+NOTICE:  Server ID: 963, Location: China, High Errors: 1
+NOTICE:  Server ID: 144, Location: Nigeria, High Errors: 1
+NOTICE:  Server ID: 991, Location: Portugal, High Errors: 1
+NOTICE:  Server ID: 690, Location: Czech Republic, High Errors: 1
+NOTICE:  Server ID: 287, Location: Philippines, High Errors: 1
+NOTICE:  Server ID: 596, Location: Kazakhstan, High Errors: 1
+NOTICE:  Server ID: 158, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 356, Location: Sweden, High Errors: 1
+NOTICE:  Server ID: 594, Location: Philippines, High Errors: 1
+NOTICE:  Server ID: 300, Location: Argentina, High Errors: 1
+NOTICE:  Server ID: 118, Location: China, High Errors: 1
+NOTICE:  Server ID: 793, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 487, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 207, Location: Canada, High Errors: 1
+NOTICE:  Server ID: 699, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 126, Location: Vietnam, High Errors: 1
+NOTICE:  Server ID: 194, Location: Poland, High Errors: 1
+NOTICE:  Server ID: 326, Location: Bosnia and Herzegovina, High Errors: 1
+NOTICE:  Server ID: 883, Location: Bolivia, High Errors: 1
+NOTICE:  Server ID: 655, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 534, Location: Portugal, High Errors: 1
+NOTICE:  Server ID: 46, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 603, Location: France, High Errors: 1
+NOTICE:  Server ID: 318, Location: Argentina, High Errors: 1
+NOTICE:  Server ID: 183, Location: Morocco, High Errors: 1
+NOTICE:  Server ID: 140, Location: United States, High Errors: 1
+NOTICE:  Server ID: 827, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 777, Location: China, High Errors: 1
+NOTICE:  Server ID: 614, Location: Argentina, High Errors: 1
+NOTICE:  Server ID: 453, Location: China, High Errors: 1
+NOTICE:  Server ID: 217, Location: Colombia, High Errors: 1
+NOTICE:  Server ID: 25, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 835, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 122, Location: Japan, High Errors: 1
+NOTICE:  Server ID: 672, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 250, Location: Portugal, High Errors: 1
+NOTICE:  Server ID: 657, Location: Indonesia, High Errors: 1
+NOTICE:  Server ID: 47, Location: Trinidad and Tobago, High Errors: 1
+NOTICE:  Server ID: 211, Location: China, High Errors: 1
+NOTICE:  Server ID: 501, Location: Chile, High Errors: 1
+NOTICE:  Server ID: 177, Location: United States, High Errors: 1
+NOTICE:  Server ID: 985, Location: Afghanistan, High Errors: 1
+NOTICE:  Server ID: 517, Location: Yemen, High Errors: 1
+NOTICE:  Server ID: 449, Location: Pakistan, High Errors: 1
+NOTICE:  Server ID: 912, Location: Peru, High Errors: 1
+NOTICE:  Server ID: 130, Location: Russia, High Errors: 1
+NOTICE:  Server ID: 828, Location: China, High Errors: 1
+NOTICE:  Server ID: 143, Location: Philippines, High Errors: 1
+NOTICE:  Server ID: 934, Location: China, High Errors: 1
+NOTICE:  Server ID: 850, Location: China, High Errors: 1
+NOTICE:  Server ID: 645, Location: China, High Errors: 1
+NOTICE:  Server ID: 52, Location: China, High Errors: 1
+NOTICE:  Server ID: 396, Location: Chile, High Errors: 1
+NOTICE:  Server ID: 701, Location: Japan, High Errors: 1
+DO
+
+Query returned successfully in 86 msec.
