@@ -16,7 +16,7 @@
   - [Introduction](#introduction-stage-3)
   - [Views](#views)
   - [Backup](#backup3)
-- [Stage 4](#stage-4)
+- [Stage 4 - PL/pgSQL Programming](#stage-4)
 ---
 
 ## Introduction
