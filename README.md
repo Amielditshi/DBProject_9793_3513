@@ -16,7 +16,13 @@
   - [Introduction](#introduction-stage-3)
   - [Views](#views)
   - [Backup](#backup3)
-- [Stage 4 - PL/pgSQL Programming](#stage-4)
+- [Stage 4 - PL/pgSQL Programming](#stage-4---plpgsql-programming)  
+  - [main_programs](#main_programs)  
+  - [Functions](#functions)
+  - [Procedures](#procedures)
+  - [Triggers](#triggers)
+  - [Backup](#backup4)  
+
 ---
 
 ## Introduction
@@ -24,7 +30,6 @@ This project aims to design and implement a relational database system for manag
 The goal is to apply database design principles (up to 3NF), execute SQL operations, and demonstrate multi-method data insertion.
 
 ---
-
 ## Stage 1 – Schema Design, Creation & Data Insertion
 
 ### Diagrams
@@ -182,6 +187,7 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 ---
 
 ### constraints
+  
 **_This stage was critical to maintaining database reliability by enforcing data validity rules and preventing inconsistent entries._**  
   In this stage, several constraints were added to ensure data integrity and consistency within the database. Initially, SELECT queries were executed to identify any existing records that violated the intended constraints. Where necessary, these records were updated with default or corrected values to maintain data validity before the constraints were enforced.
 
@@ -198,10 +204,9 @@ The implemented constraints include:
 
 All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `DEFAULT`, and `NOT NULL` constraints, following the correction of existing data where necessary to comply with the new rules.
 
-For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).
-
-
+For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).  
 ---
+
 
 ### Backup2
 
@@ -210,8 +215,12 @@ For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndF
 
 ---
 
+
+
+
 ## Stage 3 – Integration and Views
 ---
+
 ### Introduction Stage 3
 As part of the integration phase, we received a [database backup](Stage3/infrastructure_backup_for_reconstruction/infrastructure_backup_for_reconstruction) from another department in the project – the Infrastructure Department of Netflix.
 
@@ -241,7 +250,11 @@ Based on this integrated model, we designed a new [ERD](Stage3/Integration/Integ
 This integration process allowed us to design a coherent, unified data model while preserving the original logic and structure of both departments.
 
 ---
+
+
+
 ### Views
+
 
 #### View 1  
 _This view consolidates essential information about content creators and their work within the Netflix production system._      
@@ -266,6 +279,7 @@ _This unified perspective supports querying by genre, evaluating performance by 
     _Retrieves all content creators with feedback ratings higher than 4.5, including the production title and its rating._
 
 
+
 #### View 2  
 _This view offers a comprehensive health overview of the server infrastructure supporting Netflix content delivery._  
 _It merges data from five tables in the **Control Transmission** system: `Servers`, `Datacenters`, `ErrorLogs`, `MaintenanceRecords`, and `NetworkUsage`._  
@@ -287,6 +301,7 @@ _This centralized view enables identification of problematic or high-risk server
 
    - **[Query 2 – Average Latency by Country](Stage3/Views/view2/view2_query2.png)**  
     _Calculates the average network latency per country based on the location of each data center, providing insight into regional performance variations._
+
 
   
 #### View 3  
@@ -313,10 +328,38 @@ _This comprehensive infrastructure view enables in-depth analysis of deployment 
 
   
 ### Backup3
+
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)**  
-_backup file_  
+_backup file_
 ---  
-## Stage 4 - PL/pgSQL Programming
+
+
+
+
+## Stage 4 - PL/pgSQL Programming  
+---
+
+
+### main_programs   
+---
+
+
+### Functions  
+---
+
+
+### Procedures  
+---
+
+
+### Triggers  
+---
+
+
+### Backup4    
+---
+
+
 
 
 
