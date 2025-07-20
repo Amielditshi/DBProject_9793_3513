@@ -344,9 +344,24 @@ _backup file_
 ---
 
 
-### Functions  
----
+### Functions    
 
+
+- **calculate_total_payments_for_active_creators**  
+  
+  - _Calculates the total payments made to all active content creators, using the contract and content_creator tables._  
+    This PL/pgSQL function iterates over all active content creators (isactive = true) from the content_creator table and calculates the total payment made to each creator based on the contract table.
+    It returns a result table with the following columns:
+    creator_id – The ID of the content creator (content_creator.creatorid)  
+    creator_name – The full name of the content creator (content_creator.content_creatorfullname)
+    total_payment – The total sum of all payment values from the contract table, grouped by creatorid  
+    Additional behaviors:  
+    If the total payment for a creator exceeds 100,000, a NOTICE is displayed  
+    If an error occurs while processing a specific creator, it is logged via NOTICE and processing continues with the next one  
+    Each result row is returned using RETURN NEXT.  
+   - [Function Source](Stage4/Functions/calculate_total_payments_for_active_creators/funct.sql)
+   - [Test Script](Stage4/Functions/calculate_total_payments_for_active_creators/test.sql)  
+   - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)  
 
 ### Procedures  
 ---
