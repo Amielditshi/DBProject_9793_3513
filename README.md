@@ -348,8 +348,8 @@ _backup file_
 
 
 - **calculate_total_payments_for_active_creators**  
-  
-  - _Calculates the total payments made to all active content creators, using the contract and content_creator tables._  
+     _Calculates the total payments made to all active content creators, using the contract and content_creator tables._  
+      
     This PL/pgSQL function iterates over all active content creators (isactive = true) from the content_creator table and calculates the total payment made to each creator based on the contract table.
     It returns a result table with the following columns:
     creator_id – The ID of the content creator (content_creator.creatorid)  
@@ -359,9 +359,42 @@ _backup file_
     If the total payment for a creator exceeds 100,000, a NOTICE is displayed  
     If an error occurs while processing a specific creator, it is logged via NOTICE and processing continues with the next one  
     Each result row is returned using RETURN NEXT.  
-   - [Function Source](Stage4/Functions/calculate_total_payments_for_active_creators/funct.sql)
-   - [Test Script](Stage4/Functions/calculate_total_payments_for_active_creators/test.sql)  
-   - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)  
+  - [Function Source](Stage4/Functions/calculate_total_payments_for_active_creators/funct.sql)
+  - [Test Script](Stage4/Functions/calculate_total_payments_for_active_creators/test.sql)  
+  - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)  
+  <br> <br>
+
+
+- **get_server_error_summary**  
+   _Retrieves the number of high-severity errors per server using a REFCURSOR._   
+
+    This PL/pgSQL function provides a summary of high-severity errors (`severity = 'High'`) recorded for each server, by querying data from the `servers` and `errorlogs` tables
+  - ##### Key behaviors of the function:
+      - Declares and opens a cursor named `error_summary_cursor`.
+      - Executes a `SELECT` statement joining `servers` and `errorlogs`, filtering only high-severity errors, grouping by server ID and location, and counting the number of such errors per server.
+      - Returns the opened REFCURSOR instead of a direct result set.
+
+  - **Usage flow:**
+      1. Start a transaction:  
+         `BEGIN;`
+      2. Call the function to retrieve the cursor:  
+         `SELECT get_server_error_summary();`
+      3. Fetch the result set from the cursor:  
+         `FETCH ALL FROM error_summary_cursor;`
+      4. End the transaction:  
+         `COMMIT;`
+    **Returned columns:**
+       `serverid` – The server’s ID  
+       `location` – The server’s physical location  
+       `high_errors` – The number of high-severity errors found <br> <br>    
+
+   - [Function Source](Stage4/Functions/get_server_error_summary/code.sql)  
+   - [Test Script](Stage4/Functions/get_server_error_summary/test.sql)  
+   - [Execution Screenshot](Stage4/Functions/get_server_error_summary/test_funct_server.png)  
+
+
+    
+     
 
 ### Procedures  
 ---
