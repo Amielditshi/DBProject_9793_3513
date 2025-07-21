@@ -387,7 +387,7 @@ _backup file_
   
 
 - **get_server_error_summary**
-   _Retrieves the number of high-severity errors per server using a REFCURSOR._   
+     _Retrieves the number of high-severity errors per server using a REFCURSOR._   
 
 This PL/pgSQL function provides a summary of high-severity errors (`severity = 'High'`) recorded for each server, by querying data from the `servers` and `errorlogs` tables      
   
