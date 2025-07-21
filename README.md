@@ -110,7 +110,6 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
     _Lists summer releases with production rating above 8 and their average feedback._
 
 
-
 #### Update Queries  
   - **[Update Old Active Contracts](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
     _Increases payment by 10% for active creators with old contracts._
@@ -179,7 +178,6 @@ _This section demonstrates the effect of DELETE operations with and without COMM
 
 
 ### constraints
-  
 **_This stage was critical to maintaining database reliability by enforcing data validity rules and preventing inconsistent entries._**  
   In this stage, several constraints were added to ensure data integrity and consistency within the database. Initially, SELECT queries were executed to identify any existing records that violated the intended constraints. Where necessary, these records were updated with default or corrected values to maintain data validity before the constraints were enforced.
 
@@ -194,13 +192,14 @@ The implemented constraints include:
 - **Check constraint on `Production.ProductionRating`** — ratings must be between 0 and 10; invalid ratings were updated to 5.0.
 - **Default value for `Feedback.FeedbackRating`** — a default rating of 5.0 was set.
 
-All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `DEFAULT`, and `NOT NULL` constraints, following the correction of existing data where necessary to comply with the new rules.
+  All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `DEFAULT`, and `NOT NULL` constraints, following the correction of existing data where necessary to comply with the new       rules.
 
-For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).  
+  For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).  
 
 ### Backup2
 - **[Database Backup](Stage2/Backup2/Backup1505_1917)**  
  _backup file_
+
 ---
 
 
@@ -327,6 +326,24 @@ _backup file_
 
 ### main_programs   
 
+- **Analyze High-Earning Active Creators & Delete Old Feedbacks**    
+     _Identifies high-earning active content creators using a function, and deletes feedbacks older than 5 years using a procedure.   _  
+      
+     This main program performs two key operations:
+
+   - Identification and analysis of high-earning active content creators –
+     By calling the function `calculate_total_payments_for_active_creators()`, the program loops through and prints creators who are marked as active and have received a total payment exceeding a defined      threshold.
+     
+   -  Deletion of outdated feedback entries –
+      The program then calls the procedure `delete_old_feedbacks_and_count()`, which deletes feedback records older than 5 years and returns the number of deleted rows. This helps in maintaining database       cleanliness and relevance.
+      
+     Throughout the execution, the program uses `RAISE NOTICE` statements to indicate progress and outcomes, and includes exception handling for unexpected errors.
+  
+  **Related Files:**
+   -  [ProgramSource](Stage4/main_programs/prog1.sql)
+   -  [Sample Output](Stage4/main_programs/prog1_output)<br> <br>
+
+   
 
 
 ### Functions    
@@ -368,11 +385,11 @@ Key behaviors of the function:
          `FETCH ALL FROM error_summary_cursor;`
       4. End the transaction:  
          `COMMIT;`
-    **Returned columns:**
+   **Returned columns:**
        `serverid` – The server’s ID  
        `location` – The server’s physical location  
-       `high_errors` – The number of high-severity errors found <br> <br>    
-
+       `high_errors` – The number of high-severity errors found <br> <br>
+  **Related Files:**  
      - [Function Source](Stage4/Functions/get_server_error_summary/code.sql)  
      - [Test Script](Stage4/Functions/get_server_error_summary/test.sql)  
      - [Execution Screenshot](Stage4/Functions/get_server_error_summary/test_funct_server.png)  
@@ -446,10 +463,10 @@ Key behaviors of the function:
 
      - Returns `NEW` to allow insert only if the creator is active
        
-    **Related Files:**
-   * [Procedures Source](Stage4/Triggers/check_if_active_contentcreator/code.sql)
-   * [Test Script](Stage4/Triggers/check_if_active_contentcreator/test.sql)  
-   * [Execution Screenshot](Stage4/Triggers/check_if_active_contentcreator/test_trigger1.png)<br> <br>
+      **Related Files:**
+     * [Trigger Source](Stage4/Triggers/check_if_active_contentcreator/code.sql)
+     * [Test Script](Stage4/Triggers/check_if_active_contentcreator/test.sql)  
+     * [Execution Screenshot](Stage4/Triggers/check_if_active_contentcreator/test_trigger1.png)<br> <br>
 
 
 - **trg_log_server_deletion – Log server deletions automatically**      
