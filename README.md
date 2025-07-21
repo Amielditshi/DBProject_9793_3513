@@ -335,15 +335,13 @@ _backup file_
 
 
 
-
 ## Stage 4 - PL/pgSQL Programming  
----
 
+---
 
 ### main_programs   
+
 ---
-
-
 
 ### Functions    
 
@@ -404,7 +402,7 @@ Key behaviors of the function:
 - **delete_old_feedbacks_and_count**    
      _Deletes feedback records older than 5 years from the feedback table and returns the number of rows deleted._  
       
-   This PL/pgSQL procedure removes outdated feedback records by checking if their feedbackdate is older than 5 years from today. It then returns the number of deleted rows via an OUT parameter.
+   This PL/pgSQL procedure removes outdated feedback records by checking if their feedbackdate is older than 5 years from today. It then returns the number of deleted rows via an OUT parameter.    
 
    The procedure includes the following steps:
 
@@ -414,23 +412,49 @@ Key behaviors of the function:
 
      - Uses GET DIAGNOSTICS to capture the number of deleted rows into the deleted_count output parameter.
 
-     - Displays a NOTICE message with the number of records deleted.  
+     - Displays a NOTICE message with the number of records deleted.
+       
   - [Procedures Source](Stage4/Procedures/delete_old_feedbacks_and_count/code.sql)
   - [Test Script](Stage4/Procedures/delete_old_feedbacks_and_count/test.sql)  
-  - [Execution Screenshot](Stage4/Procedures/delete_old_feedbacks_and_count/final_process_feed.png)
+  - [Execution Screenshot](Stage4/Procedures/delete_old_feedbacks_and_count/final_process_feed.png)<br> <br>
   
+
+
+- **update_server_status_by_network**      
+    _Updates the operational status of each server based on its most recent network usage data._    
+      
+   This PL/pgSQL procedure analyzes the most recent network performance data for each server and updates its status in the `servers`  table. It checks the latest `averagelatency` and `packetloss` values     from the `networkusage` table to determine whether a server should be marked as 'Active' or 'Maintenance'.
   
-   
+   Detailed behavior:
+
+    - For each server, the procedure retrieves the latest record from the `networkusage` table using `DISTINCT ON (serverid)` ordered by timestamp descending.
+      
+    - It then evaluates the following conditions:
+
+    - If `averagelatency` > 500 OR `packetloss` > 5, the server status is updated to `Maintenance`.
+
+    - Otherwise, the server is marked as `Active`.
+
+    - If an error occurs while updating a specific server, a `NOTICE` is raised and the procedure continues to the next server.
+
+    - At the end of execution, a final `NOTICE` confirms that the update process has completed.
+
+    - [Procedures Source](Stage4/Procedures/update_server_status_by_network/code.sql)
+    - [Test Script](Stage4/Procedures/update_server_status_by_network/test.sql)  
+    - [Execution Screenshot](Stage4/Procedures/update_server_status_by_network/final_process_status.png)  
+  
 ---
 
 
 ### Triggers  
+
 ---
 
-
 ### Backup4  
+
 - **[Database Backup](Stage4/Backup4/Backup_1107_1159.backup)**  
   _backup file_
+  
 ---
 
 
