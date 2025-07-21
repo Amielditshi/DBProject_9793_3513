@@ -3,10 +3,10 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Stage 1 – Schema Design, Creation & Data Insertion](#stage-1--schema-design-creation--data-insertion)  
-  - [Diagrams](#diagrams)
-  - [Database Creation & Basic SQL Commands](#database-creation--basic-sql-commands)
-  - [Data Insertion](#data-insertion)
-  - [Backup](#backup1)
+  - [Diagrams](diagrams)
+  - [Database Creation & Basic SQL Commands](database-creation--basic-sql-commands)
+  - [Data Insertion](data-insertion)
+  - [Backup](backup1)
 - [Stage 2 – Advanced Queries and Constraints](#stage-2--advanced-queries-and-constraints)
   - [Queries](#queries)
   - [RollbackCommit](#rollbackcommit)
@@ -29,162 +29,154 @@
 This project aims to design and implement a relational database system for managing **Netflix content creators** and their related data. The system includes entities such as content creators, agents, contracts, productions, awards, and user feedback.  
 The goal is to apply database design principles (up to 3NF), execute SQL operations, and demonstrate multi-method data insertion.
 
----
+------
+
+
+
+
 ## Stage 1 – Schema Design, Creation & Data Insertion
 
-### Diagrams
+  - Diagrams
+     - **[ERD (Entity-Relationship Diagram)](Stage1/Diagrams/ERD_Diagram.png)**  
+       _Link to ERD diagram file or image_
 
-- **[ERD (Entity-Relationship Diagram)](Stage1/Diagrams/ERD_Diagram.png)**  
-  _Link to ERD diagram file or image_
+     - **[DSD (Detailed Schema Diagram)](Stage1/Diagrams/DSD_Diagram.png)**  
+       _Link to DSD document or image_
 
-- **[DSD (Detailed Schema Diagram)](Stage1/Diagrams/DSD_Diagram.png)**  
-  _Link to DSD document or image_
 
----
+- Database Creation & Basic SQL Commands
+  - **[CREATE](Stage1/SQL_Programming/CreateTable)**  
+    _SQL script for creating the database schema_
 
-### Database Creation & Basic SQL Commands
+  - **[INSERT](Stage1/SQL_Programming/InsertTable)**  
+    _SQL script with manual data insertions_
 
-- **[CREATE](Stage1/SQL_Programming/CreateTable)**  
-  _SQL script for creating the database schema_
+  - **[SELECT](Stage1/SQL_Programming/SelectTable)**  
+    _Examples of SELECT queries (coming soon)_
 
-- **[INSERT](Stage1/SQL_Programming/InsertTable)**  
-  _SQL script with manual data insertions_
+  - **[DROP](Stage1/SQL_Programming/DropTable)**  
+    _SQL script for dropping tables_
 
-- **[SELECT](Stage1/SQL_Programming/SelectTable)**  
-  _Examples of SELECT queries (coming soon)_
 
-- **[DROP](Stage1/SQL_Programming/DropTable)**  
-  _SQL script for dropping tables_
+- Data Insertion  
+  - **[Python Script](Stage1/seed_data/Python._Programming/Insert_Data.py)**  
+    _Automated data generation using Python_
 
----
+  - **[SQL INSERT](Stage1/seed_data/SQL_Script)**  
+     _Manual SQL-based insertion_
 
-### Data Insertion
+   - **[CSV Files](Stage1/seed_data/Filesmockaroo)**  
+      _Data import from structured CSVs_
 
-- **[Python Script](Stage1/seed_data/Python._Programming/Insert_Data.py)**  
-  _Automated data generation using Python_
 
-- **[SQL INSERT](Stage1/seed_data/SQL_Script)**  
-  _Manual SQL-based insertion_
+- Backup1
+  - **[Database Backup](Stage1/Backup/Backup080525_0045)**  
+      _backup file_
 
-- **[CSV Files](Stage1/seed_data/Filesmockaroo)**  
-  _Data import from structured CSVs_
+------
 
----
 
-### Backup1
 
-- **[Database Backup](Stage1/Backup/Backup080525_0045)**  
-  _backup file_
-
----
 
 ## Stage 2 – Advanced Queries and Constraints
 
 ### Queries 
 
-#### Select Queries
-
-- **[Count Active Creators per Agent](Stage2/Queries/select_queries/select_active_creators_per_agent.sql)**  
-  _This query identifies agents managing at least two currently active creators who have, on average, been with them for at least two years,
-  and ranks these agents by the average duration of their creators' affiliation._
+- Select Queries
+  - **[Count Active Creators per Agent](Stage2/Queries/select_queries/select_active_creators_per_agent.sql)**  
+    _This query identifies agents managing at least two currently active creators who have, on average, been with them for at least two years,
+    and ranks these agents by the average duration of their creators' affiliation._
   
-- **[Agents with Top Creators](Stage2/Queries/select_queries/select_agents_with_top_creators.sql)**  
-  _Lists agents with creators averaging feedback rating above 8 in 5 years._
+  - **[Agents with Top Creators](Stage2/Queries/select_queries/select_agents_with_top_creators.sql)**  
+    _Lists agents with creators averaging feedback rating above 8 in 5 years._
   
-- **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
-  _This query selects active content creators who have received at least one award but have not been involved in any contracts in the past three years, showing their name, join date, award name, and award year._
+  - **[Award Winners Without Recent Contracts](Stage2/Queries/select_queries/select_award_winners_no_recent_contract.sql)**  
+    _This query selects active content creators who have received at least one award but have not been involved in any contracts in the past three years, showing their name, join date, award name, and         award year._
   
-- **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year.sql)**  
-  _This query selects the number of contracts and total payments per content creator and their agent for each of the past five years, helping to analyze recent contractual engagement and earnings trends._
+  - **[Contracts and Payments per Creator Year](Stage2/Queries/select_queries/select_contracts_per_creator_year.sql)**  
+    _This query selects the number of contracts and total payments per content creator and their agent for each of the past five years, helping to analyze recent contractual engagement and earnings             trends._
   
-- **[Creators in This Year’s Productions](Stage2/Queries/select_queries/select_creators_in_productions_this_year.sql)**  
-  _Lists creators involved in productions released this year._
+  - **[Creators in This Year’s Productions](Stage2/Queries/select_queries/select_creators_in_productions_this_year.sql)**  
+    _Lists creators involved in productions released this year._
   
-- **[High Feedback and Rated Productions](Stage2/Queries/select_queries/select_productions_with_high_feedback_and_rating.sql)**  
-  _Select productions with average feedback greater than 8 and rating greater than 7.5._
+  - **[High Feedback and Rated Productions](Stage2/Queries/select_queries/select_productions_with_high_feedback_and_rating.sql)**  
+    _Select productions with average feedback greater than 8 and rating greater than 7.5._
 
-- **[Genres with Negative Feedback](Stage2/Queries/select_queries/select_genres_with_negative_feedback.sql)**  
-  _This query identifies genres with at least 3 negative reviews (ratings ≤ 6), showing the average rating and total count of such feedback,
-  sorted by lowest average rating._
+  - **[Genres with Negative Feedback](Stage2/Queries/select_queries/select_genres_with_negative_feedback.sql)**  
+    _This query identifies genres with at least 3 negative reviews (ratings ≤ 6), showing the average rating and total count of such feedback,
+      sorted by lowest average rating._
 
-- **[Summer High-Rated Productions](Stage2/Queries/select_queries/select_summer_high_rated_productions.sql)**  
-  _Lists summer releases with production rating above 8 and their average feedback._
-
-
-#### Update Queries
-
-- **[Update Old Active Contracts](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
-  _Increases payment by 10% for active creators with old contracts._
-
-- **[Update Genre for High-Rated Productions](Stage2/Queries/update_queries/update_genre_high_feedback_productions.sql)**  
-  _Sets genre to "על טבעי" for productions with average rating greater than 5._
-
-- **[Downgrade Ratings for Old Low-Rated Productions](Stage2/Queries/update_queries/update_production_rating_low_feedback_old_releases.sql)**  
-  _Reduces rating by 10% for old productions with low feedback._
+  - **[Summer High-Rated Productions](Stage2/Queries/select_queries/select_summer_high_rated_productions.sql)**  
+    _Lists summer releases with production rating above 8 and their average feedback._
 
 
-#### Delete Queries
 
-- **[Delete Agents Without Linked Creators](Stage2/Queries/delete_queries/delete_agents_with_no_creators.sql)**  
-  _Deletes agents not associated with any content creators._
+- Update Queries  
+  - **[Update Old Active Contracts](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
+    _Increases payment by 10% for active creators with old contracts._
 
-- **[Delete Low-Rated August Feedbacks](Stage2/Queries/delete_queries/delete_august_feedbacks_with_low_rating.sql)**  
-  _Deletes feedbacks from August with a rating below 4._
+  - **[Update Genre for High-Rated Productions](Stage2/Queries/update_queries/update_genre_high_feedback_productions.sql)**  
+    _Sets genre to "על טבעי" for productions with average rating greater than 5._
 
-- **[Delete Old Low Feedbacks](Stage2/Queries/delete_queries/delete_feedbacks_with_low_rating_older_than_3_years.sql)**  
-  _Deletes feedbacks rated below 2 and older than 3 years._
+  - **[Downgrade Ratings for Old Low-Rated Productions](Stage2/Queries/update_queries/update_production_rating_low_feedback_old_releases.sql)**  
+    _Reduces rating by 10% for old productions with low feedback._
 
 
----
+- Delete Queries
+  - **[Delete Agents Without Linked Creators](Stage2/Queries/delete_queries/delete_agents_with_no_creators.sql)**  
+    _Deletes agents not associated with any content creators._
+
+  - **[Delete Low-Rated August Feedbacks](Stage2/Queries/delete_queries/delete_august_feedbacks_with_low_rating.sql)**  
+    _Deletes feedbacks from August with a rating below 4._
+
+  - **[Delete Old Low Feedbacks](Stage2/Queries/delete_queries/delete_feedbacks_with_low_rating_older_than_3_years.sql)**  
+    _Deletes feedbacks rated below 2 and older than 3 years._
+
 
 ### RollbackCommit
-_This section demonstrates the effect of DELETE operations with and without COMMIT, using ROLLBACK to undo changes or confirm that changes are irreversible._ 
+  _This section demonstrates the effect of DELETE operations with and without COMMIT, using ROLLBACK to undo changes or confirm that changes are irreversible._ 
 
-
-#### Rollback
-
-- **[Rollback Script – Feedback Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**  
-   _Deletes all feedback with a rating below 2 and older than 3 years. This action is followed by a ROLLBACK_
+- Rollback
+  - **[Rollback Script – Feedback Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**  
+     _Deletes all feedback with a rating below 2 and older than 3 years. This action is followed by a ROLLBACK_
   
-- **[Before Deletion](Stage2/RollbackCommit/Rollback/1_before_deletion.jpeg)**  
-  _Initial state of the `Feedback` table before executing the DELETE command._
+  - **[Before Deletion](Stage2/RollbackCommit/Rollback/1_before_deletion.jpeg)**  
+    _Initial state of the `Feedback` table before executing the DELETE command._
 
-- **[DELETE Executed](Stage2/RollbackCommit/Rollback/2_Delete_command.jpeg)**  
-  _The SQL query used to delete all feedback with a rating below 2 and older than 3 years._
+  - **[DELETE Executed](Stage2/RollbackCommit/Rollback/2_Delete_command.jpeg)**  
+    _The SQL query used to delete all feedback with a rating below 2 and older than 3 years._
 
-- **[After Deletion](Stage2/RollbackCommit/Rollback/3_after_deletion_before_rollback.jpeg)**  
-  _Database state after executing the DELETE command and before the ROLLBACK._
+  - **[After Deletion](Stage2/RollbackCommit/Rollback/3_after_deletion_before_rollback.jpeg)**  
+    _Database state after executing the DELETE command and before the ROLLBACK._
 
-- **[Rollback Executed](Stage2/RollbackCommit/Rollback/4_rollback_executed.jpeg)**  
-  _Execution of the ROLLBACK command to undo the deletion._
+  - **[Rollback Executed](Stage2/RollbackCommit/Rollback/4_rollback_executed.jpeg)**  
+    _Execution of the ROLLBACK command to undo the deletion._
 
-- **[After Rollback](Stage2/RollbackCommit/Rollback/5_after_rollback.jpeg)**  
-  _Final state of the table showing that the deleted feedback rows were successfully restored._
+  - **[After Rollback](Stage2/RollbackCommit/Rollback/5_after_rollback.jpeg)**  
+    _Final state of the table showing that the deleted feedback rows were successfully restored._
 
 
-#### Commit
+- Commit
+  - **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Commit/delete_Commit_And_Rollback_demo.sql)**    
+     _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
+  - **[Before Deletion](Stage2/RollbackCommit/Commit/1_before_deletion_commit.jpeg)**  
+    _Initial state of the `Agent` table before executing the DELETE command._
 
-- **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Commit/delete_Commit_And_Rollback_demo.sql)**    
-   _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
-- **[Before Deletion](Stage2/RollbackCommit/Commit/1_before_deletion_commit.jpeg)**  
-  _Initial state of the `Agent` table before executing the DELETE command._
+  - **[DELETE Executed](Stage2/RollbackCommit/Commit/2_Delete_command_commit.jpeg)**  
+    _The SQL query used to delete all agents who are not assigned to any content creator._
 
-- **[DELETE Executed](Stage2/RollbackCommit/Commit/2_Delete_command_commit.jpeg)**  
-  _The SQL query used to delete all agents who are not assigned to any content creator._
+  - **[After Deletion](Stage2/RollbackCommit/Commit/3_after_deletion_before_commit.jpeg)**  
+    _Database state after executing the DELETE command and before issuing the COMMIT._
 
-- **[After Deletion](Stage2/RollbackCommit/Commit/3_after_deletion_before_commit.jpeg)**  
-  _Database state after executing the DELETE command and before issuing the COMMIT._
+  - **[Commit Executed](Stage2/RollbackCommit/Commit/4_commit_executed.jpeg)**  
+    _Execution of the COMMIT command to make the deletion permanent._
 
-- **[Commit Executed](Stage2/RollbackCommit/Commit/4_commit_executed.jpeg)**  
-  _Execution of the COMMIT command to make the deletion permanent._
+  - **[Rollback Attempted](Stage2/RollbackCommit/Commit/5_after_commit_attempted_rollback.jpeg)**  
+    _Attempted rollback after commit – no data was restored, as expected._
 
-- **[Rollback Attempted](Stage2/RollbackCommit/Commit/5_after_commit_attempted_rollback.jpeg)**  
-  _Attempted rollback after commit – no data was restored, as expected._
+  - **[Final State After Commit](Stage2/RollbackCommit/Commit/6_final_state_after_commit.jpeg)**  
+    _Final state of the `Agent` table confirming that the deleted records were permanently removed._
 
-- **[Final State After Commit](Stage2/RollbackCommit/Commit/6_final_state_after_commit.jpeg)**  
-  _Final state of the `Agent` table confirming that the deleted records were permanently removed._
-
----
 
 ### constraints
   
@@ -205,21 +197,17 @@ The implemented constraints include:
 All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `DEFAULT`, and `NOT NULL` constraints, following the correction of existing data where necessary to comply with the new rules.
 
 For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).  
----
-
 
 ### Backup2
 
 - **[Database Backup](Stage2/Backup2/Backup1505_1917)**  
  _backup file_
-
 ---
 
 
 
 
 ## Stage 3 – Integration and Views
----
 
 ### Introduction Stage 3
 As part of the integration phase, we received a [database backup](Stage3/infrastructure_backup_for_reconstruction/infrastructure_backup_for_reconstruction) from another department in the project – the Infrastructure Department of Netflix.
@@ -331,20 +319,18 @@ _This comprehensive infrastructure view enables in-depth analysis of deployment 
 
 - **[Database Backup](Stage3/Backup3/backup2506_1735.backup)**  
 _backup file_
----  
-
+------
 
 
 ## Stage 4 - PL/pgSQL Programming  
 
----
+
 
 ### main_programs   
 
----
+
 
 ### Functions    
-
 
 - **calculate_total_payments_for_active_creators**  
      _Calculates the total payments made to all active content creators, using the contract and content_creator tables._  
@@ -398,7 +384,6 @@ Key behaviors of the function:
      
 ### Procedures      
 
-
 - **delete_old_feedbacks_and_count**    
      _Deletes feedback records older than 5 years from the feedback table and returns the number of rows deleted._  
       
@@ -414,16 +399,17 @@ Key behaviors of the function:
 
      - Displays a NOTICE message with the number of records deleted.
        
-  - [Procedures Source](Stage4/Procedures/delete_old_feedbacks_and_count/code.sql)
-  - [Test Script](Stage4/Procedures/delete_old_feedbacks_and_count/test.sql)  
-  - [Execution Screenshot](Stage4/Procedures/delete_old_feedbacks_and_count/final_process_feed.png)<br> <br>
+     **Related Files:**
+   *   [Procedures Source](Stage4/Procedures/delete_old_feedbacks_and_count/code.sql)
+   *   [Test Script](Stage4/Procedures/delete_old_feedbacks_and_count/test.sql)  
+   *   [Execution Screenshot](Stage4/Procedures/delete_old_feedbacks_and_count/final_process_feed.png)<br> <br>
   
-
 
 - **update_server_status_by_network**      
     _Updates the operational status of each server based on its most recent network usage data._    
       
-   This PL/pgSQL procedure analyzes the most recent network performance data for each server and updates its status in the `servers`  table. It checks the latest `averagelatency` and `packetloss` values     from the `networkusage` table to determine whether a server should be marked as 'Active' or 'Maintenance'.
+   This PL/pgSQL procedure analyzes the most recent network performance data for each server and updates its status in the `servers`  table. It checks the latest
+  `averagelatency` and `packetloss` values     from the `networkusage` table to determine whether a server should be marked as 'Active' or 'Maintenance'.
   
    Detailed behavior:
 
@@ -438,22 +424,59 @@ Key behaviors of the function:
     - If an error occurs while updating a specific server, a `NOTICE` is raised and the procedure continues to the next server.
 
     - At the end of execution, a final `NOTICE` confirms that the update process has completed.
-
-    - [Procedures Source](Stage4/Procedures/update_server_status_by_network/code.sql)
-    - [Test Script](Stage4/Procedures/update_server_status_by_network/test.sql)  
-    - [Execution Screenshot](Stage4/Procedures/update_server_status_by_network/final_process_status.png)  
-  
----
+    
+    **Related Files:**
+   *  [Procedures Source](Stage4/Procedures/update_server_status_by_network/code.sql)
+   *  [Test Script](Stage4/Procedures/update_server_status_by_network/test.sql)  
+   *  [Execution Screenshot](Stage4/Procedures/update_server_status_by_network/final_process_status.png)  
 
 
 ### Triggers  
 
----
+ - **check_creator_active – Trigger to enforce active creator constraint**      
+    _Ensures that a contract can only be inserted if the associated content creator is marked as active._    
+      
+    This trigger is defined on the `contract` table and uses the `check_creator_active()` function. Before any new contract is inserted, the trigger verifies whether
+    the referenced `creatorid` belongs to an active content creator (`isactive = TRUE`).
+    If the creator is not active or does not exist, the trigger raises an exception and blocks the insert operation. This ensures business rule enforcement and protects data consistency.
+   
+    The trigger function:  
+     - Checks existence of the creator with `isactive = TRUE`
+
+     - Raises a descriptive exception if the condition fails
+
+     - Returns `NEW` to allow insert only if the creator is active
+       
+    **Related Files:**
+   * [Procedures Source](Stage4/Triggers/check_if_active_contentcreator/code.sql)
+   * [Test Script](Stage4/Triggers/check_if_active_contentcreator/test.sql)  
+   * [Execution Screenshot](Stage4/Triggers/check_if_active_contentcreator/test_trigger1.png)<br> <br>
+
+
+- **trg_log_server_deletion – Log server deletions automatically**      
+    _logs every deletion from the `servers` table by inserting the deleted server's details into a dedicated audit table._    
+      
+   The `trg_log_server_deletion` trigger is bound to the `servers` table and activates **after a row is deleted**. It executes the `log_server_deletion()` function, which captures information about the      deleted server, including:
+
+  - The server ID (`serverid`)
+  - Its physical location (`location`)
+  - Its IP address (`ipaddress`)
+  - The current timestamp (`deleted_at`)
+  - The database user who performed the deletion (`deleted_by`)
+
+  This data is stored in the `server_deletion_log` table to maintain an audit trail. This mechanism ensures accountability and supports infrastructure monitoring by tracking deleted records, which can be   essential for diagnosing issues or maintaining compliance with internal policies.
+
+  The function uses `OLD` to reference the deleted row and inserts the composed information into the log table. It returns `OLD` to complete the trigger operation successfully.
+
+  **Related Files:**
+  * [Trigger Source](Stage4/Triggers/log_server_deletion/code.sql)
+  * [Test Script](Stage4/Triggers/log_server_deletion/test.sql)
+  * [Execution Screenshot](Stage4/Triggers/log_server_deletion/image.png)
 
 ### Backup4  
 
-- **[Database Backup](Stage4/Backup4/Backup_1107_1159.backup)**  
-  _backup file_
+  - **[Database Backup](Stage4/Backup4/Backup_1107_1159.backup)**  
+      _backup file_
   
 ---
 
