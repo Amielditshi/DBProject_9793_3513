@@ -344,6 +344,7 @@ _backup file_
 ---
 
 
+
 ### Functions    
 
 
@@ -361,18 +362,19 @@ _backup file_
     Each result row is returned using RETURN NEXT.  
   - [Function Source](Stage4/Functions/calculate_total_payments_for_active_creators/funct.sql)
   - [Test Script](Stage4/Functions/calculate_total_payments_for_active_creators/test.sql)  
-  - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)  
-  <br> <br>
+  - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)    
+  
 
-
-- **get_server_error_summary**  
+- **get_server_error_summary**
    _Retrieves the number of high-severity errors per server using a REFCURSOR._   
 
-    This PL/pgSQL function provides a summary of high-severity errors (`severity = 'High'`) recorded for each server, by querying data from the `servers` and `errorlogs` tables
-  - ##### Key behaviors of the function:
-      - Declares and opens a cursor named `error_summary_cursor`.
-      - Executes a `SELECT` statement joining `servers` and `errorlogs`, filtering only high-severity errors, grouping by server ID and location, and counting the number of such errors per server.
-      - Returns the opened REFCURSOR instead of a direct result set.
+This PL/pgSQL function provides a summary of high-severity errors (`severity = 'High'`) recorded for each server, by querying data from the `servers` and `errorlogs` tables      
+  
+Key behaviors of the function:     
+ 
+    - Declares and opens a cursor named `error_summary_cursor`.
+    - Executes a `SELECT` statement joining `servers` and `errorlogs`, filtering only high-severity errors, grouping by server ID and location, and counting the number of such errors per server.
+    - Returns the opened REFCURSOR instead of a direct result set.
 
   - **Usage flow:**
       1. Start a transaction:  
@@ -388,15 +390,37 @@ _backup file_
        `location` – The server’s physical location  
        `high_errors` – The number of high-severity errors found <br> <br>    
 
-   - [Function Source](Stage4/Functions/get_server_error_summary/code.sql)  
-   - [Test Script](Stage4/Functions/get_server_error_summary/test.sql)  
-   - [Execution Screenshot](Stage4/Functions/get_server_error_summary/test_funct_server.png)  
+     - [Function Source](Stage4/Functions/get_server_error_summary/code.sql)  
+     - [Test Script](Stage4/Functions/get_server_error_summary/test.sql)  
+     - [Execution Screenshot](Stage4/Functions/get_server_error_summary/test_funct_server.png)  
 
 
     
-     
 
-### Procedures  
+     
+### Procedures      
+
+
+- **delete_old_feedbacks_and_count**    
+     _Deletes feedback records older than 5 years from the feedback table and returns the number of rows deleted._  
+      
+   This PL/pgSQL procedure removes outdated feedback records by checking if their feedbackdate is older than 5 years from today. It then returns the number of deleted rows via an OUT parameter.
+
+   The procedure includes the following steps:
+
+     - Declares a cutoff date (feedbacks_before) as the current date minus 5 years.
+
+     - Deletes all records from the feedback table where feedbackdate is older than feedbacks_before.
+
+     - Uses GET DIAGNOSTICS to capture the number of deleted rows into the deleted_count output parameter.
+
+     - Displays a NOTICE message with the number of records deleted.  
+  - [Procedures Source](Stage4/Procedures/delete_old_feedbacks_and_count/code.sql)
+  - [Test Script](Stage4/Procedures/delete_old_feedbacks_and_count/test.sql)  
+  - [Execution Screenshot](Stage4/Procedures/delete_old_feedbacks_and_count/final_process_feed.png)
+  
+  
+   
 ---
 
 
