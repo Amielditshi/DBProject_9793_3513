@@ -320,6 +320,8 @@ _backup file_
 ------
 
 
+
+
 ## Stage 4 - PL/pgSQL Programming  
 
 
@@ -327,7 +329,7 @@ _backup file_
 ### main_programs   
 
 - **Analyze High-Earning Active Creators & Delete Old Feedbacks**    
-     _Identifies high-earning active content creators using a function, and deletes feedbacks older than 5 years using a procedure.   _  
+     _Identifies high-earning active content creators using a function, and deletes feedbacks older than 5 years using a procedure._  
       
      This main program performs two key operations:
 
@@ -339,9 +341,26 @@ _backup file_
       
      Throughout the execution, the program uses `RAISE NOTICE` statements to indicate progress and outcomes, and includes exception handling for unexpected errors.
   
-  **Related Files:**
+    **Related Files:**
    -  [ProgramSource](Stage4/main_programs/prog1.sql)
    -  [Sample Output](Stage4/main_programs/prog1_output)<br> <br>
+
+- **Updatea & Report Server Errors**    
+     _Updates server statuses based on network conditions and displays a summary of high severity errors using a refcursor._  
+
+     This main PL/pgSQL script performs two core action:  
+
+   - Status Update: It begins by calling the stored procedure update_server_status_by_network, which evaluates the latest latency and packet loss statistics to update each
+     server's operational status.
+     
+   -  Error Summary Report: Then, it calls the function get_server_error_summary, which returns a refcursor pointing to a result set of servers with high severity errors.
+      The program loops through the cursor to print out each server's ID, location, and the number of critical errors detected.  
+      
+     The process is wrapped in a DO block with exception handling to ensure graceful error logging if unexpected failures occur during execution.
+  
+    **Related Files:**
+   -  [ProgramSource](Stage4/main_programs/prog2.sql)
+   -  [Sample Output](Stage4/main_programs/prog2_output)
 
    
 
