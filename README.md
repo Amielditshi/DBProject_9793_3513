@@ -346,7 +346,7 @@ _backup file_
    -  [Sample Output](Stage4/main_programs/prog1_output)<br> <br>
 
 - **Update & Report Server Errors**    
-     _Updates server statuses based on network conditions and displays a summary of high severity errors using a recursor._  
+     _Updates server statuses based on network conditions and displays a summary of high severity errors using a refcursor._  
 
      This main PL/pgSQL script performs two core action:  
 
