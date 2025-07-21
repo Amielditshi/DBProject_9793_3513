@@ -17,7 +17,7 @@
   - [Views](#views)
   - [Backup](#backup3)
 - [Stage 4 - PL/pgSQL Programming](#stage-4---plpgsql-programming)  
-  - [main_programs](#main_programs)  
+  - [Main Programs](#Main-Programs)  
   - [Functions](#functions)
   - [Procedures](#procedures)
   - [Triggers](#triggers)
