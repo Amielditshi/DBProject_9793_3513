@@ -378,7 +378,9 @@ _backup file_
     Additional behaviors:  
     If the total payment for a creator exceeds 100,000, a NOTICE is displayed  
     If an error occurs while processing a specific creator, it is logged via NOTICE and processing continues with the next one  
-    Each result row is returned using RETURN NEXT.  
+    Each result row is returned using RETURN NEXT.
+  
+  **Related Files:**  
   - [Function Source](Stage4/Functions/calculate_total_payments_for_active_creators/funct.sql)
   - [Test Script](Stage4/Functions/calculate_total_payments_for_active_creators/test.sql)  
   - [Execution Screenshot](Stage4/Functions/calculate_total_payments_for_active_creators/image.png)    
