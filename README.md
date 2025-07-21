@@ -326,7 +326,7 @@ _backup file_
 
 
 
-### main_programs   
+### Main Programs   
 
 - **Analyze High-Earning Active Creators & Delete Old Feedbacks**    
      _Identifies high-earning active content creators using a function, and deletes feedbacks older than 5 years using a procedure._  
@@ -345,7 +345,7 @@ _backup file_
    -  [ProgramSource](Stage4/main_programs/prog1.sql)
    -  [Sample Output](Stage4/main_programs/prog1_output)<br> <br>
 
-- **Updatea & Report Server Errors**    
+- **Update & Report Server Errors**    
      _Updates server statuses based on network conditions and displays a summary of high severity errors using a refcursor._  
 
      This main PL/pgSQL script performs two core action:  
