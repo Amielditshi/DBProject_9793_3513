@@ -3,10 +3,10 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Stage 1 – Schema Design, Creation & Data Insertion](#stage-1--schema-design-creation--data-insertion)  
-  - [Diagrams](diagrams)
-  - [Database Creation & Basic SQL Commands](database-creation--basic-sql-commands)
-  - [Data Insertion](data-insertion)
-  - [Backup](backup1)
+  - [Diagrams](#diagrams)
+  - [Database Creation & Basic SQL Commands](#database-creation--basic-sql-commands)
+  - [Data Insertion](#data-insertion)
+  - [Backup](#backup1)
 - [Stage 2 – Advanced Queries and Constraints](#stage-2--advanced-queries-and-constraints)
   - [Queries](#queries)
   - [RollbackCommit](#rollbackcommit)
@@ -36,15 +36,15 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 ## Stage 1 – Schema Design, Creation & Data Insertion
 
-  - Diagrams
-     - **[ERD (Entity-Relationship Diagram)](Stage1/Diagrams/ERD_Diagram.png)**  
-       _Link to ERD diagram file or image_
+#### Diagrams
+  - **[ERD (Entity-Relationship Diagram)](Stage1/Diagrams/ERD_Diagram.png)**  
+    _Link to ERD diagram file or image_
 
-     - **[DSD (Detailed Schema Diagram)](Stage1/Diagrams/DSD_Diagram.png)**  
-       _Link to DSD document or image_
+ - **[DSD (Detailed Schema Diagram)](Stage1/Diagrams/DSD_Diagram.png)**  
+   _Link to DSD document or image_
 
 
-- Database Creation & Basic SQL Commands
+#### Database Creation & Basic SQL Commands
   - **[CREATE](Stage1/SQL_Programming/CreateTable)**  
     _SQL script for creating the database schema_
 
@@ -58,7 +58,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
     _SQL script for dropping tables_
 
 
-- Data Insertion  
+#### Data Insertion  
   - **[Python Script](Stage1/seed_data/Python._Programming/Insert_Data.py)**  
     _Automated data generation using Python_
 
@@ -69,7 +69,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
       _Data import from structured CSVs_
 
 
-- Backup1
+#### Backup1
   - **[Database Backup](Stage1/Backup/Backup080525_0045)**  
       _backup file_
 
@@ -82,7 +82,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 ### Queries 
 
-- Select Queries
+#### Select Queries
   - **[Count Active Creators per Agent](Stage2/Queries/select_queries/select_active_creators_per_agent.sql)**  
     _This query identifies agents managing at least two currently active creators who have, on average, been with them for at least two years,
     and ranks these agents by the average duration of their creators' affiliation._
@@ -111,7 +111,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 
 
-- Update Queries  
+#### Update Queries  
   - **[Update Old Active Contracts](Stage2/Queries/update_queries/update_contracts_payment_old_active_creators.sql)**  
     _Increases payment by 10% for active creators with old contracts._
 
@@ -122,7 +122,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
     _Reduces rating by 10% for old productions with low feedback._
 
 
-- Delete Queries
+#### Delete Queries
   - **[Delete Agents Without Linked Creators](Stage2/Queries/delete_queries/delete_agents_with_no_creators.sql)**  
     _Deletes agents not associated with any content creators._
 
@@ -134,9 +134,9 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
 
 
 ### RollbackCommit
-  _This section demonstrates the effect of DELETE operations with and without COMMIT, using ROLLBACK to undo changes or confirm that changes are irreversible._ 
+_This section demonstrates the effect of DELETE operations with and without COMMIT, using ROLLBACK to undo changes or confirm that changes are irreversible._ 
 
-- Rollback
+#### Rollback
   - **[Rollback Script – Feedback Deletion](Stage2/RollbackCommit/Rollback/Rollback.sql)**  
      _Deletes all feedback with a rating below 2 and older than 3 years. This action is followed by a ROLLBACK_
   
@@ -156,7 +156,7 @@ The goal is to apply database design principles (up to 3NF), execute SQL operati
     _Final state of the table showing that the deleted feedback rows were successfully restored._
 
 
-- Commit
+#### Commit
   - **[Commit Script – Agent Deletion](Stage2/RollbackCommit/Commit/delete_Commit_And_Rollback_demo.sql)**    
      _Deletes all agents not assigned to any content creator. This action is followed by a COMMIT._  
   - **[Before Deletion](Stage2/RollbackCommit/Commit/1_before_deletion_commit.jpeg)**  
@@ -199,7 +199,6 @@ All constraints were implemented via `ALTER TABLE` statements adding `CHECK`, `D
 For full details, [see thee Constraints SQL script](Stage2/Constraints/CheckAndFixConstraints.sql).  
 
 ### Backup2
-
 - **[Database Backup](Stage2/Backup2/Backup1505_1917)**  
  _backup file_
 ---
@@ -474,7 +473,6 @@ Key behaviors of the function:
   * [Execution Screenshot](Stage4/Triggers/log_server_deletion/image.png)
 
 ### Backup4  
-
   - **[Database Backup](Stage4/Backup4/Backup_1107_1159.backup)**  
       _backup file_
   
