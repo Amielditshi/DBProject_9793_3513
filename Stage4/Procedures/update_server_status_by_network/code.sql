@@ -4,19 +4,19 @@ AS $$
 DECLARE
     rec RECORD;
 BEGIN
-    -- Parcourir chaque serveur avec ses dernières stats réseau
+    -- Browse each server with its latest network stats
     FOR rec IN 
         SELECT s.serverid, n.averagelatency, n.packetloss
         FROM servers s
         JOIN (
-            -- On prend la dernière mesure réseau pour chaque serveur
+            -- We take the last network measurement for each server
             SELECT DISTINCT ON (serverid) *
             FROM networkusage
             ORDER BY serverid, "timestamp" DESC
         ) n ON s.serverid = n.serverid
     LOOP
         BEGIN
-            -- Mettre à jour le statut selon les conditions
+            -- Update status as per conditions
             IF rec.averagelatency > 500 OR rec.packetloss > 5 THEN
                 UPDATE servers SET status = 'Maintenance' WHERE serverid = rec.serverid;
             ELSE
