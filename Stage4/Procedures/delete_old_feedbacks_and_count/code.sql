@@ -4,11 +4,11 @@ AS $$
 DECLARE
     feedbacks_before DATE := CURRENT_DATE - INTERVAL '5 years';
 BEGIN
-    -- Supprimer les feedbacks trop anciens
+    -- Delete feedback that is too old
     DELETE FROM feedback
     WHERE feedbackdate < feedbacks_before;
 
-    -- Renvoyer le nombre de lignes supprimées
+    -- Return the number of lines deleted
     GET DIAGNOSTICS deleted_count = ROW_COUNT;
 
     RAISE NOTICE 'Deleted % old feedback(s).', deleted_count;
