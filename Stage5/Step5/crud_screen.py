@@ -2,6 +2,18 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import psycopg2
 from db_connection import connect_to_db
+# ------------------------------------------------------------
+# File: crud_screen.py
+# ------------------------------------------------------------
+# This module implements the CRUD (Create, Read, Update, Delete)
+# operations for managing database tables.
+# Features:
+#   - Dropdown menu to select a table
+#   - Treeview widget to display table data
+#   - Buttons to add, edit, delete, and refresh records
+# The CRUD screen dynamically fetches table columns and data
+# from PostgreSQL and allows real-time data manipulation.
+# ------------------------------------------------------------
 
 
 TABLES = {
