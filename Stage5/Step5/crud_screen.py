@@ -29,7 +29,7 @@ TABLES = {
     "Maintenance Records": "maintenancerecords",
     "Network Usage": "networkusage",
     "Streaming Sessions": "streamingsessions",
-    "Production Deployment": "production_deployment"
+    "Production Deployment": "productiondeployment"
 }
 
 
