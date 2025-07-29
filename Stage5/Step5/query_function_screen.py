@@ -258,7 +258,7 @@ class QueryFunctionApp:
         func_frame = tk.Frame(frame)
         func_frame.pack(side=tk.LEFT, padx=10, fill=tk.BOTH, expand=True)
 
-        tk.Label(func_frame, text="Available Functions/Procedures").pack()
+        tk.Label(func_frame, text="Available Functions").pack()
         self.function_listbox = tk.Listbox(func_frame, height=6)
         for key in self.functions:
             self.function_listbox.insert(tk.END, key)
@@ -269,7 +269,7 @@ class QueryFunctionApp:
         proc_frame = tk.Frame(frame)
         proc_frame.pack(side=tk.LEFT, padx=10, fill=tk.BOTH, expand=True)
 
-        tk.Label(proc_frame, text="Procedures").pack()
+        tk.Label(proc_frame, text="Available Procedures").pack()
         self.procedure_listbox = tk.Listbox(proc_frame, height=6)
         for key in self.procedures:
             self.procedure_listbox.insert(tk.END, key)
