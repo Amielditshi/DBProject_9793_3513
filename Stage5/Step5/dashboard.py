@@ -2,7 +2,16 @@ import tkinter as tk
 from tkinter import messagebox
 from crud_screen import CrudApp
 from query_function_screen import QueryFunctionApp
-
+# ------------------------------------------------------------
+# File: dashboard.py
+# ------------------------------------------------------------
+# This module defines the main dashboard screen for the GUI.
+# It provides navigation buttons to:
+#   - Open the CRUD management screen
+#   - Open the Queries and Functions/Procedures execution screen
+#   - Exit the application
+# The dashboard acts as a central menu for the project.
+# ------------------------------------------------------------
 
 def open_crud_screen():
     crud_window = tk.Toplevel()
