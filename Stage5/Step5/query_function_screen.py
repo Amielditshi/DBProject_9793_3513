@@ -2,7 +2,22 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import psycopg2
 from db_connection import connect_to_db
-
+# ------------------------------------------------------------
+# File: query_function_screen.py
+# ------------------------------------------------------------
+# This module provides a GUI screen where users can:
+#   - Execute predefined SQL queries
+#   - Call stored database functions
+#   - Call stored database procedures
+# The screen includes:
+#   - Listboxes to select a query, function, or procedure
+#   - A button to execute the selected item
+#   - A Treeview to display query results
+#   - Pop-up messages for updates, deletes, and procedure executions
+# Special handling is included for:
+#   - Functions returning cursors (REFCURSOR)
+#   - Procedures requiring NULL arguments for OUT parameters
+# ------------------------------------------------------------
 
 class QueryFunctionApp:
     def __init__(self, root):
@@ -353,7 +368,7 @@ class QueryFunctionApp:
                 cur.close()
                 messagebox.showinfo("Success",
                                     " Operation executed successfully.")
-                return  # pas besoin d'affichage
+                return  
 
             # Display if result available
             if not rows:
