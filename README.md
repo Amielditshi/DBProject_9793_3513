@@ -23,8 +23,9 @@
   - [Triggers](#triggers)
   - [Backup](#backup4)   
 - [Stage 5 – Graphical User Interface (GUI)](#stage-5--graphical-user-interface-gui)
+   - [Files Overview](#files-overview)   
    - [Screenshots](#screenshots)
-   - [Files Overview](#files-overview) 
+   
 
 
  
