@@ -17,12 +17,18 @@
   - [Views](#views)
   - [Backup](#backup3)
 - [Stage 4 - PL/pgSQL Programming](#stage-4---plpgsql-programming)  
-  - [Main Programs](#Main-Programs)  
+  - [Main Programs](#main-programs)  
   - [Functions](#functions)
   - [Procedures](#procedures)
   - [Triggers](#triggers)
-  - [Backup](#backup4)  
+  - [Backup](#backup4)   
+- [Stage 5 – Graphical User Interface (GUI)](#stage-5--graphical-user-interface-gui)
+   - [Screenshots](#screenshots)
+   - [Files Overview](#files-overview) 
 
+
+ 
+  
 ---
 
 ## Introduction
@@ -514,6 +520,84 @@ Key behaviors of the function:
   - **[Database Backup](Stage4/Backup4/Backup_1107_1159.backup)**  
       _backup file_
   
+---  
+
+## Stage 5 – Graphical User Interface (GUI)   
+_This stage includes the development of a graphical user interface using Python's `Tkinter` library. The interface allows users to
+manage database records (CRUD), run predefined SQL queries and functions, and interact with the system through a user-friendly dashboard._   
+
+### Files Overview  
+- [`main.py`](Stage5/Step5/main.py)  
+  _Entry point of the application. It launches the main dashboard window._   
+  **Functionality**    
+   * Imports `launch_dashboard()` from `dashboard.py`  
+   * Starts the GUI program  
+
+ - [`dashboard.py`](Stage5/Step5/dashboard.py)    
+  _Main GUI dashboard that allows navigation between the CRUD screen and the Query & Function screen._    
+  **Functionality**  
+  *Provides buttons for:*  
+   - Data Management (CRUD)  
+   - Query & Function execution  
+    - Exiting the program  
+    - Acts as the central hub for user interaction  
+
+ - [`crud screen.py`](Stage5/Step5/crud_screen.py)  
+   _GUI window for managing database tables with full CRUD (Create, Read, Update, Delete) functionality._  
+   **Functionality**
+    - Allows the user to select a table and view its contents
+    - Supports inserting, updating, and deleting records via popup windows
+    - Automatically refreshes the displayed data after each operation
+    - Uses `psycopg2` to interact with the PostgreSQL database
+    - Displays messages and errors for better user experience
+
+- [`query function screen.py`](Stage5/Step5/query_function_screen.py)  
+  _GUI to run predefined SQL queries and stored functions */ procedures* on the database.
+  Displays lists for selecting queries , functions *or procedures* and shows SELECT query results in a table._  
+ **Functionality**   
+  *Provides dropdown lists for:*  
+   - Predefined SELECT/UPDATE/DELETE queries
+   - Stored procedures and functions
+   - Displays results from SELECT queries using a Treeview table
+   - Executes other types of queries and shows confirmation messages
+     
+ - [`db_connection.py`](Stage5/Step5/db_connection.py)  
+  _Provides a centralized function for connecting to the PostgreSQL database. Includes error handling for connection issues to ensure safe and reliable database access._  
+   **Functionality**  
+   - Defines connection parameters (host, user, password, etc.)
+   - Handles connection errors gracefully and logs messages
+     
+
+ 
+   
+### Screenshots  
+_Below are selected screenshots demonstrating the main features of the graphical user interface:_  
+
+
+ - [Dashboard](Stage5/screenshots/dashboard.png)   
+  _Main screen providing access to CRUD operations and queries._  
+
+ - [Content Creator Table](Stage5/screenshots/content_creator_table.png)   
+  _Displays existing content creators in a tabular view._  
+
+- [Update Award Record](Stage5/screenshots/award_update_row.png)   
+_Form used to update an existing award record._  
+
+ - [Deleted Production Row](Stage5/screenshots/production_deployment_deleted_row.png)    
+ _Shows row marked for deletion in the production deployment table._  
+
+ - [Queries & Procedures Menu](Stage5/screenshots/queries_funct_procedures.png)   
+  _Enables user to run pre-defined queries, functions, and procedures._
+
+ - [Query Output](Stage5/screenshots/queries_output.png)  
+  _Results displayed after running a SELECT query._  
+
+ - [Function Output](Stage5/screenshots/funct_output.png)  
+  _Demonstrates return value from a PL/pgSQL function._
+
+ - [Procedure Output](Stage5/screenshots/procedures_output.png)  
+  _Illustrates the result of running a stored procedure._
+
 ---
 
 
