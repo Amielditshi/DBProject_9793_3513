@@ -558,7 +558,7 @@ manage database records (CRUD), run predefined SQL queries and functions, and in
  **Functionality**   
   *Provides dropdown lists for:*  
    - Predefined SELECT/UPDATE/DELETE queries
-   - Stored procedures and functions
+   - Stored queries and functions
    - Displays results from SELECT queries using a Treeview table
    - Executes other types of queries and shows confirmation messages
      
